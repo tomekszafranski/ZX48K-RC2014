@@ -45,7 +45,7 @@ You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyb
 
 At the very beginning I said that design of Speccy module is based on ZX48essentials. This project utilizes vLA82S+ ULA replacement and its idea was to build a clone (same components as in original ZX Spectrum 48K). However one can argue that this is unnecessary complication and impractical one for sure. There are projects out there that utilize FPGA which can be progammed to replace ULA with surronding logic. If you are one of these people please see **ZX Spectrum 48K add-on for RC2014<sup>TM</sup>** module below. It has the functionality of Speccy module but is based on Altera EPM7128 FPGA and core used in [ZX 48 Spider](https://github.com/konkotgit/ZX-48-Spider) project. The rest of the story is the same.
 
-[picture-altera module]
+![zx_on_rc2014](https://github.com/user-attachments/assets/51ee1889-19b5-497d-8c7d-ab1f80a0b402)
 
 ## Step Three: World of Spectrum
 
@@ -54,7 +54,7 @@ At this stage you should be able to load a game from tape and play using the key
 **ZX Spectrum edge connector module** for RC2014<sup>TM</sup> system was designed. The only problem is that it requires more signals then are present on RC2014 Standard bus. To get it running you need to be using RC2014 Enhanced Bus (at least most common, middle section - Pins……) that has additional CPU signals from which the NMI would be most important. 
 Edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane) or with standard bus backplane – enhanced signals are transferred by cables from CPU board to edge connector module. 
 
-[picture-edge module]
+![edge](https://github.com/user-attachments/assets/d412ea3d-8c5e-4902-bae1-70fe9a79de77)
 
 To summarize, you have couple of options:
 * Use enhanced bus backplane and CPU board that has enhanced bus connector and add edge connector module. If you need such CPU board see repository. Alternatively you can use CPU/ROM/RAM board mentioned earlier.
@@ -62,7 +62,7 @@ To summarize, you have couple of options:
 * You can also use special backplane for RC2014 that has ZX Spectrum edge connector built in :-) You need CPU with enhanced connector.
 See pictures below.
 
-[photo]
+![backplane4](https://github.com/user-attachments/assets/d83ae894-3f14-4cf5-9eee-f657887a708a)
 
 ## Step Four: Get it all!
 
