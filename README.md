@@ -16,7 +16,7 @@ OK, so let’s build it!
 
 I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (I will further refer to it as "Speccy module"). All components follow original ZX Spectrum Issue 3B design (have same references and values) and the approach to utilizing static Lower RAM memory is the same as in modern memory replacement boards. Module design follows RC2014<sup>TM</sup> standard (see discussion [About RC2014 and RCBus standards] for more).
 
-![zx_on_rc2014](https://github.com/user-attachments/assets/c17fd156-7570-4252-82d5-6a8fe2180448)
+![zx_on_rc2014](https://github.com/user-attachments/assets/9cb38b72-2394-47b3-b192-82742dc48f23)
 
 Here is what you need apart from Speccy module to get it running: 
 * Backplane for RC2014<sup>TM</sup> system with 4-6 slots (depends on which version you decide to build - read on for more information).
@@ -39,7 +39,7 @@ Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan
 To write a program in BASIC that displays standard “Hello World!” message you need a keyboard. Speccy module has IDC16 connector for it. I don't know about any standard here so I followed pin assignment described in [ZX81 Keybord Adventure](https://www.zx81keyboardadventure.com/p/zx-key-keyboard-guide-book.html). 
 You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyboards designed for Harlequin – one with tactile switches or one with mechanical switches using **Keyboard adpater** below. 
 
-![zx_spectrum](https://github.com/user-attachments/assets/71922baf-d8c5-4672-959c-47b0b208092f)
+![zx_spectrum](https://github.com/user-attachments/assets/649b2fc0-529d-4ce9-8673-fbe062be75f1)
 
 ## Back to Step One?
 
