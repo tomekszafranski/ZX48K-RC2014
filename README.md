@@ -30,7 +30,7 @@ If you install those three modules together with Speccy module on the backplane 
 
 [photo-system on RC2014 with message]
 
-Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. Module is equiped with RC2014<sup>TM</sup> Ehnhanced bus - more on this in Step Three.
+Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. As you can see module is equiped with RC2014<sup>TM</sup> Enhanced bus - more on this in Step Three.
 
 ![cpu_rom_ram](https://github.com/user-attachments/assets/14004322-263d-41b8-985d-8d31237e1f98)
 
