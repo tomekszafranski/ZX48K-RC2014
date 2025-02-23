@@ -57,6 +57,8 @@ At this stage you should be able to load a game from tape and play using the key
 
 Edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane). However one can imagine using it with standard bus if only  or with standard bus backplane – enhanced signals are transferred by cables from CPU board to edge connector module. 
 
+![cpu_2](https://github.com/user-attachments/assets/d67d7550-fc4a-44f7-a5a3-d7b09300e88a)
+
 To summarize, you have couple of options:
 * Use enhanced bus backplane and CPU board that has enhanced bus connector and add edge connector module. If you need such CPU board see repository. Alternatively you can use CPU/ROM/RAM board mentioned earlier.
 * Use standard bus backplane and CPU board that has enhanced signals available and connect them to edge connector module by wires. If you need such CPU board see repository.
