@@ -2,13 +2,13 @@
 
 ## Introduction 
 
-While working on [ZX48essentials](https://github.com/tomekszafranski/ZX48essentials) project I wanted to have the ability to gradually extend the system, starting from CPU and adding next elements to get a fully working computer. I came up with the idea of self-made modular Z80 system. It utilized 40-pin gold pin connector on a breadboard, modules were built using universal PCBs and components were connected with wires. It worked for some time but since only one poor contact is enough to crash, after a while it became difficult to enjoy.
+While working on [ZX48essentials](https://github.com/tomekszafranski/ZX48essentials) project I wanted to have the ability to gradually extend the system, starting from CPU and adding next elements to get a fully working computer in the end. I came up with the idea of self-made modular Z80 system. It utilized 40-pin gold pin connector on a breadboard, modules were built using universal PCBs and components were connected with wires. It worked for some time but since only one poor contact is enough to crash, after a while it became difficult to enjoy.
 
 ![thumbnail_IMG_8504](https://github.com/user-attachments/assets/71b20718-c213-47b7-b03b-fcb64e4c0bb7)
 ![thumbnail_IMG_8508_2](https://github.com/user-attachments/assets/ff2cee50-6fe0-4505-aebd-a353caf3a4de)
 
 
-Then I found out (RTFM and Internet) that such a solution already exists! – wonderful [RC2014<sup>TM</sup>]( https://rc2014.co.uk/) system developed by Spencer Owen – standard that I liked very much at first sight. So having my version of ZX Spectrum ready, designing version for RC2014<sup>TM</sup> seemed an obvious thing to do. The initial idea was to use components developed for RC2014<sup>TM</sup> that you might already have: CPU, RAM, ROM and add Spectrum specific part (module) only. As in ZX48essentials, convenient vRetro Design [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) ULA replacement outputing RGB signal is used. To have Spectrum's funtionality we need to add video memory used by ULA and EAR/MIC/keyboard sections.  
+Then I found out (RTFM+Internet!) that such a solution already exists! – wonderful [RC2014<sup>TM</sup>]( https://rc2014.co.uk/) system developed by Spencer Owen – standard that I liked very much at first sight. So having my version of ZX Spectrum ready, designing version for RC2014<sup>TM</sup> seemed an obvious thing to do. The initial idea was to use components developed for RC2014<sup>TM</sup> that you might already have: CPU, RAM, ROM and add Spectrum specific part (module) only. As in ZX48essentials, convenient vRetro Design [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) ULA replacement outputing RGB signal is used. To have Spectrum's funtionality we need to add video memory used by ULA and EAR/MIC/keyboard sections.  
 
 OK, so let’s build it!
 
