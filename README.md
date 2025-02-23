@@ -14,7 +14,7 @@ OK, so let’s build it!
 
 ## Step One: Sinclair’s logo
 
-I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (I will further refer to it as "Speccy module"). All components follow original ZX Spectrum Issue 3B design (have same references and values) and the approach to utilizing static Lower RAM memory is the same as in modern memory replacement boards. Module design follows RC2014<sup>TM</sup> standard (see discussion [About RC2014 and RCBus standards] for more).
+I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (I will further refer to it as "Speccy module"). All components follow original ZX Spectrum Issue 3B design (have same references and values) and the approach to utilizing static Lower RAM memory is the same as in modern [memory replacement boards](https://www.retroleum.co.uk/spectrum-repairs-mods). Module design follows RC2014<sup>TM</sup> standard (see [About RC2014 and RCBus standards] for more).
 
 ![zx_on_rc2014](https://github.com/user-attachments/assets/9cb38b72-2394-47b3-b192-82742dc48f23)
 
