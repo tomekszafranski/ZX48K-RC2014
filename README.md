@@ -52,9 +52,10 @@ At the very beginning I said that design of Speccy module is based on ZX48essent
 At this stage you should be able to load a game from tape and play using the keyboard. However to get full modern Spectrum experience you probably dream about connecting microSD card interface. In order to do this you need working ZX Spectrum edge connector.
 
 **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** was designed. The only problem is that it requires more signals then are present on RC2014 Standard bus. To get it running you need to be using RC2014 Enhanced Bus (at least most common, middle section - Pins 17-26) that has additional CPU signals (NMI among them). 
-Edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane) or with standard bus backplane – enhanced signals are transferred by cables from CPU board to edge connector module. 
 
 ![edge](https://github.com/user-attachments/assets/d412ea3d-8c5e-4902-bae1-70fe9a79de77)
+
+Edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane). However one can imagine using it with standard bus if only  or with standard bus backplane – enhanced signals are transferred by cables from CPU board to edge connector module. 
 
 To summarize, you have couple of options:
 * Use enhanced bus backplane and CPU board that has enhanced bus connector and add edge connector module. If you need such CPU board see repository. Alternatively you can use CPU/ROM/RAM board mentioned earlier.
