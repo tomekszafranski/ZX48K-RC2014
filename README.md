@@ -18,7 +18,7 @@ I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (I w
 
 ![zx_on_rc2014](https://github.com/user-attachments/assets/9cb38b72-2394-47b3-b192-82742dc48f23)
 
-Here is what you need apart from Speccy module to get it running: 
+To get it runing you need (apart from Speccy module): 
 * Backplane for RC2014<sup>TM</sup> system with 4-6 slots (depends on which version you decide to build - read on for more information).
 * Z80 CPU module without clock and ideally without reset circuit but with pullup resistors for NMI, WAIT and BUSRQ lines (however they might be also connected directly to +5V). It is also OK to have INT line pulled-up, however in Spectrum it is not. CLK and RESET signals will be supplied by Speccy module. 
 * Module with 32KB of RAM at address 8000h with logic to select it (based on A15, MREQ, RD, WR lines).
@@ -30,7 +30,7 @@ If you install those three modules together with Speccy module on the backplane 
 
 [photo-system on RC2014 with message]
 
-Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM module** to get you going. You should be able to see Spectrum's welcome message using these two modules only. Module is equiped with RC2014<sup>TM</sup> Ehnhanced bus - more on this in Step Three.
+Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. Module is equiped with RC2014<sup>TM</sup> Ehnhanced bus - more on this in Step Three.
 
 ![cpu_rom_ram](https://github.com/user-attachments/assets/14004322-263d-41b8-985d-8d31237e1f98)
 
