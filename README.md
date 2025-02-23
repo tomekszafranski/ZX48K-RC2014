@@ -26,7 +26,7 @@ Here is what you need apart from Speccy module to get it running:
 
 Speccy module has couple of jumpers but you can leave them open for now if only your ROM module has select mechanism. See [Remarks – Speccy module's jumpers] for description.
 
-If you install those three modules together with Speccy module on the backplane you should be able to see heartwarming “© 1982 Sinclair Research Ltd.” welcome message. Below you can see Speccy module being used with CPU and RAM from RC2014<sup>TM</sup> [Classic II Kit](https://rc2014.co.uk/full-kits/rc2014-classic-ii/). Classic’s ROM module was replaced with PagedROM module since Classic's original ROM is 8KB only (howerver it can be modified to work - see [Remarks – Using Classic Kit ROM]).
+If you install those three modules together with Speccy module on the backplane you should be able to see heartwarming “© 1982 Sinclair Research Ltd.” welcome message. Below you can see Speccy module being used with CPU and RAM from RC2014<sup>TM</sup> [Classic II Kit](https://rc2014.co.uk/full-kits/rc2014-classic-ii/). Classic’s ROM module was replaced with [PagedROM](https://rc2014.co.uk/modules/pageable-rom/) module since Classic's original ROM is 8KB only (howerver it can be modified to work - see [Remarks – Using Classic Kit ROM]).
 
 [photo-system on RC2014 with message]
 
