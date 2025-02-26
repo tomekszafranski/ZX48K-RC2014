@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-While working on [ZX48essentials](https://github.com/tomekszafranski/ZX48essentials) project I wanted to have the ability to gradually extend the system, starting from CPU and adding next elements to get a fully working computer in the end. I came up with the idea of self-made modular Z80 system. It utilized 40-pin gold pin connector on a breadboard, modules were built using universal PCBs and components were connected with wires. It worked for some time but since only one poor contact is enough to crash, after a while it became difficult to enjoy.
+While working on [ZX48essentials](https://github.com/tomekszafranski/ZX48essentials) project I wanted to have the ability to gradually extend the system, starting from CPU and adding next elements to get a fully loaded computer in the end. I came up with the idea of self-made modular Z80 system. It utilized 40-pin gold pin connector on a breadboard, modules were built using cut universal PCBs and components were connected with wires. It worked for some time but since only one poor contact is enough to crash, after a while it became difficult to enjoy.
 
 ![thumbnail_IMG_8504](https://github.com/user-attachments/assets/71b20718-c213-47b7-b03b-fcb64e4c0bb7)
 ![thumbnail_IMG_8508_2](https://github.com/user-attachments/assets/ff2cee50-6fe0-4505-aebd-a353caf3a4de)
