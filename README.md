@@ -45,7 +45,7 @@ You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyb
 
 At the very beginning I said that design of Speccy module is based on ZX48essentials. This project utilizes vLA82S+ ULA replacement and its idea was to build a clone (same components as in original ZX Spectrum 48K). However one can argue that this is unnecessary complication and impractical one for sure. There are projects out there that utilize FPGA which can be progammed to replace ULA with surronding logic. If you are one of these people please see **ZX Spectrum 48K add-on for RC2014<sup>TM</sup>** module below. It has the functionality of Speccy module but is based on Altera EPM7128 FPGA and the core used in great [ZX 48 Spider](https://github.com/konkotgit/ZX-48-Spider) project. The rest of the story is the same.
 
-![zx_on_rc2014](https://github.com/user-attachments/assets/51ee1889-19b5-497d-8c7d-ab1f80a0b402)
+<img width="903" height="834" alt="Zrzut ekranu 2025-07-15 122057" src="https://github.com/user-attachments/assets/60aa079b-0f90-4833-94f8-4c8170ddc9e7" />
 
 ## Step Three: World of Spectrum
 
@@ -65,7 +65,7 @@ To summarize, you have couple of options:
 * You can also use special backplane for RC2014 that has ZX Spectrum edge connector built in :-) You need CPU with enhanced connector.
 See pictures below.
 
-![backplane4](https://github.com/user-attachments/assets/d83ae894-3f14-4cf5-9eee-f657887a708a)
+<img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
 
 ## Step Four: Get it all!
 
