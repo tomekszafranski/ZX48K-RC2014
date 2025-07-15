@@ -1,4 +1,4 @@
-# ZX48K-RC2014
+# ZX48K for RC2014
 
 ## Introduction 
 
