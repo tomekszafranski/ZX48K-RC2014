@@ -16,7 +16,7 @@ To understand following description/discussion you need working knowlegde of ZX 
 
 I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (it will be further refered to it as "Speccy module"). All components follow original ZX Spectrum Issue 3B design (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory is the same as in modern [memory replacement boards](https://www.retroleum.co.uk/spectrum-repairs-mods). Module design follows RC2014<sup>TM</sup> standard (see [About RC2014 and RCBus standards] for more).
 
-<img width="923" height="832" alt="Zrzut ekranu 2025-07-15 121927" src="https://github.com/user-attachments/assets/4e8c9e97-bd76-4af7-9288-e38714469108" />
+<img width="902" height="815" alt="Zrzut ekranu 2025-07-15 210149" src="https://github.com/user-attachments/assets/29c3cf36-874e-42fb-9131-5367b919f58f" />
 
 To get it runing you need (apart from above Speccy module): 
 * RC2014 backplane with 4-6 slots (depends on which version you decide to build - read on for more information).
@@ -45,7 +45,7 @@ You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyb
 
 At the very beginning I said that design of Speccy module is based on ZX48essentials. This project utilizes vLA82S+ ULA replacement and its idea was to build a clone (same components as in original ZX Spectrum 48K). However one can argue that this is unnecessary complication and impractical one for sure. There are projects out there that utilize FPGA which can be progammed to replace ULA with surronding logic. If you are one of these people please see **ZX Spectrum 48K add-on for RC2014<sup>TM</sup>** module below. It has the functionality of Speccy module but is based on Altera EPM7128 FPGA and the core used in great [ZX 48 Spider](https://github.com/konkotgit/ZX-48-Spider) project. The rest of the story is the same.
 
-<img width="903" height="834" alt="Zrzut ekranu 2025-07-15 122057" src="https://github.com/user-attachments/assets/60aa079b-0f90-4833-94f8-4c8170ddc9e7" />
+<img width="917" height="828" alt="Zrzut ekranu 2025-07-15 210234" src="https://github.com/user-attachments/assets/e55733c8-0f8c-48e1-aac6-bea3cb35b36a" />
 
 ## Step Three: World of Spectrum
 
