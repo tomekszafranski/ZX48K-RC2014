@@ -16,7 +16,7 @@ To understand following description/discussion you need working knowlegde of ZX 
 
 I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (it will be further refered to it as "Speccy module"). All components follow original ZX Spectrum Issue 3B design (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory is the same as in modern [memory replacement boards](https://www.retroleum.co.uk/spectrum-repairs-mods). Module design follows RC2014<sup>TM</sup> standard (see [About RC2014 and RCBus standards] for more).
 
-![zx_on_rc2014](https://github.com/user-attachments/assets/9cb38b72-2394-47b3-b192-82742dc48f23)
+<img width="923" height="832" alt="Zrzut ekranu 2025-07-15 121927" src="https://github.com/user-attachments/assets/4e8c9e97-bd76-4af7-9288-e38714469108" />
 
 To get it runing you need (apart from above Speccy module): 
 * RC2014 backplane with 4-6 slots (depends on which version you decide to build - read on for more information).
@@ -32,7 +32,7 @@ If you install those three modules together with Speccy module on the backplane 
 
 Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. As you can see module is equiped with RC2014<sup>TM</sup> Enhanced bus - more on this in Step Three.
 
-![cpu_rom_ram](https://github.com/user-attachments/assets/14004322-263d-41b8-985d-8d31237e1f98)
+<img width="865" height="553" alt="Zrzut ekranu 2025-07-15 122024" src="https://github.com/user-attachments/assets/96887011-b504-448b-a8a4-a9de74135219" />
 
 ## Step Two: Hello World!
 
