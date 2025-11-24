@@ -7,7 +7,7 @@ While working on [ZX48-Essentials](https://github.com/tomekszafranski/ZX48essent
 ![thumbnail_IMG_8504](https://github.com/user-attachments/assets/71b20718-c213-47b7-b03b-fcb64e4c0bb7)
 ![thumbnail_IMG_8508_2](https://github.com/user-attachments/assets/ff2cee50-6fe0-4505-aebd-a353caf3a4de)
 
-Soon I found out (RTFM and Internet!) that such a solution already exists – wonderful [RC2014<sup>TM</sup>]( https://rc2014.co.uk/) system developed by Spencer Owen – standard that I liked very much at first sight. So having my version of ZX Spectrum ready, designing a version for RC2014<sup>TM</sup> seemed natural thing to do. The idea was to use components already developed for RC2014<sup>TM</sup> system that you might already have: CPU, RAM, ROM and add Spectrum specific part (module) only. As in ZX48-Essentials project, convenient vRetro Design [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) ULA replacement outputing RGB signal is used. To have Spectrum's funtionality on top of RC2014<sup>TM</sup> we need to add video memory used by ULA and EAR/MIC/keyboard sections. 
+Soon I found out (RTFM and Internet!) that such a solution already exists – wonderful [RC2014<sup>TM</sup>]( https://rc2014.co.uk/) system created by Spencer Owen – standard that I liked very much at first sight. So having my version of ZX Spectrum ready, designing a version for RC2014<sup>TM</sup> seemed natural thing to do. The idea was to use components already developed for RC2014<sup>TM</sup> system that you might already have: CPU, RAM, ROM and add Spectrum specific part (module) only. As in ZX48-Essentials project, convenient vRetro Design [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) ULA replacement outputing RGB signal is used. To have Spectrum's funtionality on top of RC2014<sup>TM</sup> we need to add video memory used by ULA and EAR/MIC/keyboard sections. 
 
 To fully understand following description/discussion you need working knowlegde of ZX Spectrum design but don't worry if you don't have it. Anyone can easily follow the logic and instructions below.
 
@@ -92,6 +92,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
