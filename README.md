@@ -69,15 +69,7 @@ See pictures below.
 
 ## Step Four: Get it all!
 
-To get full ZX Spectrum experience, depending on you setup:
-* If you use Speccy module with vLA82S+ you have sound chip onboard. You might only need joystick interface.
-* If you use Speeccy module with vLA82S+and with edge conector with divMMC interface there is a chance you have joystick interface, no need no more.
-* If you use Speccy module with Altera FPGA you need sound card and a joystick interface.
-* If you use Speccy module with Altera FPGA and divMMC interface connected to edge connector you might have joystick but you still need sound card.
-
-Whatever you situation is you can find joystick interface, AY Sound interface or both modules available.
-
-[photo]
+To get full ZX Spectrum experience sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces howerver sound card will be usefull. More about this in next repo.
 
 ## Remarks
 
@@ -101,6 +93,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
