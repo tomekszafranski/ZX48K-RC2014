@@ -77,7 +77,7 @@ See pictures below.
 
 ## Step Four: Get it all!
 
-To get full ZX Spectrum experience sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces however sound card will be useful. More about this in next repo.
+To get full ZX Spectrum experience sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces however sound card will be useful. More about this in next repository.
 
 ## Remarks
 
@@ -101,6 +101,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
