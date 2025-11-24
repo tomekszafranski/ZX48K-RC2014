@@ -63,7 +63,7 @@ Above edge connector module should be used with Enhanced RCBus backplane (enhanc
 
 ![cpu_2](https://github.com/user-attachments/assets/d67d7550-fc4a-44f7-a5a3-d7b09300e88a)
 
-Below you can see Speccy module with Altera chip together with upgraded CPU module that powers edge connector that has divMMC installed :-)
+Below you can see Speccy module with Altera chip together with upgraded CPU module that powers edge connector with divMMC installed :-)
 
 To summarize, you have couple of options:
 * Use enhanced bus backplane and CPU board that has enhanced bus connector and add edge connector module. If you need such CPU board see repository. Alternatively you can use CPU/ROM/RAM board mentioned earlier.
@@ -99,6 +99,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
