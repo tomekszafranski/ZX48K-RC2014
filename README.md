@@ -61,7 +61,7 @@ Edge connector module should be used with Enhanced RCBus backplane (enhanced sig
 To summarize, you have couple of options:
 * Use enhanced bus backplane and CPU board that has enhanced bus connector and add edge connector module. If you need such CPU board see repository. Alternatively you can use CPU/ROM/RAM board mentioned earlier.
 * Use standard bus backplane and CPU board that has enhanced signals available and connect them to edge connector module by wires. If you need such CPU board see repository.
-* You can also use special backplane for RC2014 that has ZX Spectrum edge connector built in :-) You need CPU with enhanced connector.
+* You can also use special **Backplane for RC2014with ZX Spectrum edge connector** built in :-) You need CPU with enhanced connector.
 See pictures below.
 
 <img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
@@ -92,6 +92,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
