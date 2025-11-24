@@ -42,7 +42,7 @@ You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyb
 
 ## Back to Step One?
 
-At the very beginning I said that design of Speccy module is based on ZX48essentials. This project utilizes vLA82S+ ULA replacement and its idea was to build a clone (same components as in original ZX Spectrum 48K). However one can argue that this is unnecessary complication and impractical one for sure. There are projects out there that utilize FPGA which can be progammed to replace ULA with surronding logic. If you are one of these people please see **ZX Spectrum 48K add-on for RC2014<sup>TM</sup>** module below. It has the functionality of Speccy module but is based on Altera EPM7128 FPGA and the core used in great [ZX 48 Spider](https://github.com/konkotgit/ZX-48-Spider) project. The rest of the story is the same.
+At the very beginning I said that design of Speccy module is based on [ZX48-Essentials](https://github.com/tomekszafranski/ZX48essentials). This project utilizes vLA82S+ ULA replacement and its idea was to build a clone (same components as in original ZX Spectrum 48K). However one can argue that this is unnecessary complication and impractical one for sure. There are projects out there that utilize FPGA which can be progammed to replace ULA with surronding logic. If you are one of these people please see **ZX Spectrum 48K add-on for RC2014<sup>TM</sup>** module below. It has the functionality of Speccy module but is based on Altera EPM7128 FPGA and the core used in great [ZX 48 Spider](https://github.com/konkotgit/ZX-48-Spider) project. The rest of the story is the same.
 
 <img width="917" height="828" alt="Zrzut ekranu 2025-07-15 210234" src="https://github.com/user-attachments/assets/e55733c8-0f8c-48e1-aac6-bea3cb35b36a" />
 
@@ -92,6 +92,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
