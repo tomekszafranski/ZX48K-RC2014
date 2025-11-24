@@ -55,13 +55,15 @@ At the very beginning I said that design of Speccy module is based on [ZX48-Esse
 
 At this stage you should be able to load a game from tape and play using the keyboard. However to get full modern Spectrum experience you probably dream about connecting microSD card interface. In order to do this you need working ZX Spectrum edge connector.
 
-**ZX Spectrum Edge connector for RC2014<sup>TM</sup>** board was designed. The only problem is that it requires more signals then are present on RC2014 Standard bus. To get it running you need to be using RC2014 Enhanced Bus (at least most common, middle section - Pins 17-26) that carry additional CPU signals (NMI among them). 
+**ZX Spectrum Edge connector for RC2014<sup>TM</sup>** board was designed. The only problem is that edge connector requires more signals then are present on RC2014 Standard bus. To get it running you need to be using RC2014 Enhanced Bus (at least most common, middle section - Pins 17-26) that carry additional CPU signals (NMI among them). 
 
 ![edge](https://github.com/user-attachments/assets/d412ea3d-8c5e-4902-bae1-70fe9a79de77)
 
 Above edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane). If you have only standard backplane you can still transfer additional signals using wires. You should use upgraded CPU module below that expose those signals and connect wires from it to edge connector module (install these addition 8 pins vertically).
 
 ![cpu_2](https://github.com/user-attachments/assets/d67d7550-fc4a-44f7-a5a3-d7b09300e88a)
+
+Below you can see Speccy module with Altera chip together with upgraded CPU module that powers edge connector that has divMMC installed :-)
 
 To summarize, you have couple of options:
 * Use enhanced bus backplane and CPU board that has enhanced bus connector and add edge connector module. If you need such CPU board see repository. Alternatively you can use CPU/ROM/RAM board mentioned earlier.
@@ -97,6 +99,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
