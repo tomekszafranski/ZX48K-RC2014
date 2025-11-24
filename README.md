@@ -29,7 +29,7 @@ If you install those three modules together with Speccy module on the backplane 
 
 ![thumbnail_IMG_0587a](https://github.com/user-attachments/assets/1547917c-70af-4c33-a095-a6aa7054ddc5)
 
-Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. As you can see module is equipped with RC2014<sup>TM</sup> Enhanced bus (partial second row of pins - more on this in Step Three.
+Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. As you can see module is equipped with RC2014<sup>TM</sup> Enhanced bus (partial second row of pins - more on this in Step Three). Double angle goldpin must be used in the middle section.
 
 <img width="865" height="553" alt="Zrzut ekranu 2025-07-15 122024" src="https://github.com/user-attachments/assets/96887011-b504-448b-a8a4-a9de74135219" />
 
@@ -59,7 +59,7 @@ At this stage you should be able to load a game from tape and play using the key
 
 ![edge](https://github.com/user-attachments/assets/d412ea3d-8c5e-4902-bae1-70fe9a79de77)
 
-Edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane). However one can imagine using it with standard bus if only  or with standard bus backplane – enhanced signals are transferred by cables from CPU board to edge connector module. 
+Edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane). If you have only standard one you can transfer additional signals using wires. You should use upraged CPU module that expose those signals and connect wires from it to edge connector module.
 
 ![cpu_2](https://github.com/user-attachments/assets/d67d7550-fc4a-44f7-a5a3-d7b09300e88a)
 
@@ -97,6 +97,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
