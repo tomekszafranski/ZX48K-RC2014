@@ -34,6 +34,7 @@ Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan
 <img width="865" height="553" alt="Zrzut ekranu 2025-07-15 122024" src="https://github.com/user-attachments/assets/96887011-b504-448b-a8a4-a9de74135219" />
 
 
+
 [photo here] 
 
 
@@ -96,6 +97,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
