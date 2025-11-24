@@ -59,7 +59,7 @@ At this stage you should be able to load a game from tape and play using the key
 
 ![edge](https://github.com/user-attachments/assets/d412ea3d-8c5e-4902-bae1-70fe9a79de77)
 
-Edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane). If you have only standard one you can transfer additional signals using wires. You should use upraged CPU module that expose those signals and connect wires from it to edge connector module.
+Above edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane). If you have only standard backplane you can still transfer additional signals using wires. You should use upgraded CPU module below that expose those signals and connect wires from it to edge connector module (install these addition 8 pins vertically).
 
 ![cpu_2](https://github.com/user-attachments/assets/d67d7550-fc4a-44f7-a5a3-d7b09300e88a)
 
@@ -97,6 +97,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
