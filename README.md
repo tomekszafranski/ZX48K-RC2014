@@ -13,7 +13,7 @@ To fully understand following description/discussion, working knowledge of ZX Sp
 
 ## Step One: Sinclair’s logo
 
-I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (it will be further referred to it as "Speccy module"). All components follow original ZX Spectrum Issue 3B design (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory is the same as in modern [memory replacement boards](https://www.retroleum.co.uk/spectrum-repairs-mods). Module design follows RC2014<sup>TM</sup> standard (see [About RC2014 and RCBus standards] for more).
+I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (it will be further referred to it as "Speccy module"). All components follow original ZX Spectrum Issue 3B design (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory (instead of painful DRAM) is the same as in modern [memory replacement boards](https://www.retroleum.co.uk/spectrum-repairs-mods). Module design follows RC2014<sup>TM</sup> standard (see [About RC2014 and RCBus standards] for more).
 
 <img width="902" height="815" alt="Zrzut ekranu 2025-07-15 210149" src="https://github.com/user-attachments/assets/29c3cf36-874e-42fb-9131-5367b919f58f" />
 
@@ -92,6 +92,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
