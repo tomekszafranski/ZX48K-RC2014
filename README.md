@@ -93,13 +93,15 @@ All modules design
 
 Speccy module has four jumpers. One located on the left under ULA and three mode located on the right side of the ULA.
 
-### Using Classic's ROM
+### Keyboard Adapter
 
-Classic's kit ROM is 8KB only. It utilizes xxxx chip which is much bigger but on board logic is set up to use 8KB (size of original BASIC).
+xxxxxxxxxxxxxxxxx
+
 
 Have fun!
 
 Tomek
+
 
 
 
