@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-While working on [ZX48-Essentials](https://github.com/tomekszafranski/ZX48essentials) project I thought it would be nice to be able to build the system step by step, starting from CPU and adding next elements to get a fully loaded computer in the end. I came up with the idea of self-made modular Z80 system. It utilized 40-pin gold pin connector on a stripboard, modules were built using universal PCBs cut to size and components were connected with wires and jumpers. It worked for some time but since only one poor contact is enough to crash, after a while it became difficult to enjoy.
+While working on [ZX48-Essentials](https://github.com/tomekszafranski/ZX48essentials) project I thought it would be nice to have a system that could be extended step by step, starting from CPU and adding next elements to get a fully loaded computer in the end. I came up with the idea of self-made modular Z80 system. It utilized 40-pin gold pin connector on a stripboard, modules were built using universal PCBs cut to size and components were connected with wires and jumpers. It worked for some time but since only one poor contact is enough to crash, after a while it became difficult to enjoy.
 
 ![thumbnail_IMG_8504](https://github.com/user-attachments/assets/71b20718-c213-47b7-b03b-fcb64e4c0bb7)
 ![thumbnail_IMG_8508_2](https://github.com/user-attachments/assets/ff2cee50-6fe0-4505-aebd-a353caf3a4de)
@@ -92,6 +92,7 @@ xxxxxxxxxxxxxxxxx
 Have fun!
 
 Tomek
+
 
 
 
