@@ -1,4 +1,4 @@
-# ZX48K for RC2014
+# ZX48K for RC2014<sup>TM</sup>
 
 ## Introduction 
 
@@ -100,6 +100,7 @@ Classic's kit ROM is 8KB only. It utilizes xxxx chip which is much bigger but on
 Have fun!
 
 Tomek
+
 
 
 
