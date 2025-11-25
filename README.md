@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-While working on [ZX48-Essentials](https://github.com/tomekszafranski/ZX48essentials) project I thought it would be nice to have a system that could be extended step by step, starting from CPU and adding next elements to get a fully loaded computer in the end. I came up with the idea of self-made modular Z80 system. It utilized 40-pin goldpin connector on a stripboard, modules were built using universal PCBs cut to size and components were connected with wires and jumpers. It worked for some time but since only one poor contact is enough to crash, after a while it became difficult to enjoy.
+While working on [ZX48-Essentials](https://github.com/tomekszafranski/ZX48essentials) project I thought it would be nice to have a system that could be easily extended step by step, starting from CPU and adding next elements to get a fully loaded computer in the end. I came up with the idea of self-made modular Z80 system. It utilized 40-pin goldpin connector on a stripboard, modules were built using universal PCBs cut to size and components were connected with wires and jumpers. It worked for some time but since only one poor contact is enough to crash, after a while it became difficult to enjoy.
 
 ![thumbnail_IMG_8504](https://github.com/user-attachments/assets/71b20718-c213-47b7-b03b-fcb64e4c0bb7)
 ![thumbnail_IMG_8508_2](https://github.com/user-attachments/assets/ff2cee50-6fe0-4505-aebd-a353caf3a4de)
@@ -13,7 +13,7 @@ To fully understand following description/discussion, working knowledge of ZX Sp
 
 ## Step One: Sinclair’s logo
 
-I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (it will be further referred to it as "Speccy module"). All components follow original ZX Spectrum Issue 3B design (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory (in place of painful DRAM) is the same as in modern [memory replacement boards](https://www.retroleum.co.uk/spectrum-repairs-mods). Module design follows RC2014<sup>TM</sup> standard (see [About RC2014 and RCBus standards] for more).
+I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (it will be further referred to it as "Speccy module"). All components follow original ZX Spectrum Issue 3B design (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory (in place of painful DRAM) is the same as in modern [memory replacement boards](https://www.retroleum.co.uk/spectrum-repairs-mods). Module design follows RC2014<sup>TM</sup> standard (see [About RC2014 and RCBus standards] discussion for more).
 
 <img width="902" height="815" alt="Zrzut ekranu 2025-07-15 210149" src="https://github.com/user-attachments/assets/29c3cf36-874e-42fb-9131-5367b919f58f" />
 
@@ -114,6 +114,7 @@ Tomek
 > **Disclaimer**: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your own doings and the consequences, not me.
 >
 > **Licensed under**: CERN Open Hardware Licence Version 2 - Strongly Reciprocal. Read [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.txt)
+
 
 
 
