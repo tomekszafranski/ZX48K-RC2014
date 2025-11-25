@@ -53,8 +53,13 @@ At the very beginning I said that design of Speccy module is based on [ZX48-Esse
 
 At this stage you should be able to load a game from tape and play using the keyboard. However to get full modern Spectrum experience you probably dream about connecting some storage solution e.g. microSD card interface. In order to do this you need working ZX Spectrum's edge connector. This is the place where things get a bit complicated because:
 * we need a kind of module/PCB/adapter with edge connector to use real world extension modules
-* edge connector requires more signals that we have available on Standard RC2014<sup>TM</sup> bus so we're going to use Enhanced bus
-* to connect external peripherials ability to control /ROMCS signal it needed so that external device can take over by disabling Specturm's ROM
+* ZX Spectrum requires more signals on edge connector that we have available on Standard RC2014<sup>TM</sup> bus so we're going to use Enhanced bus (more pins)
+* to connect external peripherials ability to control /ROMCS signal it needed so that external device can take over by disabling Specturm's ROM - this is the reason that some of standard ROM modules will not work).
+As you can probably imagined, both Speccy modules and CPU/ROM/RAM module are designed to overcome last two points. The only requirements would be to have actual edge connector. Why not have it on a backplane itself? Below you can see **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-)
+
+<img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
+
+
 
 **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** board was designed. The only problem is that edge connector requires more signals then are present on RC2014 Standard bus. To get it running you need to be using RC2014 backplane with Enhanced Bus like [Backplane Pro](https://z80kits.com/shop/backplane-pro/). Its most common middle section - pins 17-26 - carries additional CPU signals (/NMI among them). 
 
@@ -74,7 +79,7 @@ To summarize, you have couple of options:
 * You can also use special **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-) You need CPU with enhanced connector.
 See pictures below.
 
-<img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
+
 
 ## Step Four: Get it all!
 
@@ -115,6 +120,7 @@ Tomek
 > **Disclaimer**: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your own doings and the consequences, not me.
 >
 > **Licensed under**: CERN Open Hardware Licence Version 2 - Strongly Reciprocal. Read [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.txt)
+
 
 
 
