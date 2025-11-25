@@ -29,11 +29,9 @@ If you install those three modules together with Speccy module on the backplane 
 
 ![thumbnail_IMG_0587a](https://github.com/user-attachments/assets/1547917c-70af-4c33-a095-a6aa7054ddc5)
 
-Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. As you can see below module is equipped with RC2014<sup>TM</sup> Enhanced bus (partial second row of pins - more on this in Step Three). Double angled goldpins must be used in the middle section. Set jumper to "Int.ROMCS" (which means that module will generate ROMCS signal itself and not rely on Speccy module").
+Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. As you can see - to be future proof - module is equipped with RC2014<sup>TM</sup> Enhanced bus (partial second row of pins - more on this in Step Three). Double angled goldpins must be used in the middle section. Set jumper to "Int.ROMCS" (which means that module will generate ROMCS signal itself and not rely on Speccy module").
 
 <img width="865" height="553" alt="Zrzut ekranu 2025-07-15 122024" src="https://github.com/user-attachments/assets/96887011-b504-448b-a8a4-a9de74135219" />
-
-
 
 [photo here] 
 
@@ -53,7 +51,10 @@ At the very beginning I said that design of Speccy module is based on [ZX48-Esse
 
 ## Step Three: World of Spectrum
 
-At this stage you should be able to load a game from tape and play using the keyboard. However to get full modern Spectrum experience you probably dream about connecting some storage solution e.g. microSD card interface. In order to do this you need working ZX Spectrum's edge connector.
+At this stage you should be able to load a game from tape and play using the keyboard. However to get full modern Spectrum experience you probably dream about connecting some storage solution e.g. microSD card interface. In order to do this you need working ZX Spectrum's edge connector. This is the place where things get a bit complicated because:
+* we need a kind of module/PCB/adapter with edge connector to use real world extension modules
+* edge connector requires more signals that we have available on Standard RC2014<sup>TM</sup> bus so we're going to use Enhanced bus
+* to connect external peripherials ability to control /ROMCS signal it needed so that external device can take over by disabling Specturm's ROM
 
 **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** board was designed. The only problem is that edge connector requires more signals then are present on RC2014 Standard bus. To get it running you need to be using RC2014 backplane with Enhanced Bus like [Backplane Pro](https://z80kits.com/shop/backplane-pro/). Its most common middle section - pins 17-26 - carries additional CPU signals (/NMI among them). 
 
@@ -114,6 +115,7 @@ Tomek
 > **Disclaimer**: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your own doings and the consequences, not me.
 >
 > **Licensed under**: CERN Open Hardware Licence Version 2 - Strongly Reciprocal. Read [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.txt)
+
 
 
 
