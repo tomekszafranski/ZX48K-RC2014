@@ -29,7 +29,7 @@ If you install those three modules together with Speccy module on the backplane 
 
 ![thumbnail_IMG_0587a](https://github.com/user-attachments/assets/1547917c-70af-4c33-a095-a6aa7054ddc5)
 
-Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. As you can see below module is equipped with RC2014<sup>TM</sup> Enhanced bus (partial second row of pins - more on this in Step Three). Double angled goldpins must be used in the middle section.
+Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules only. As you can see below module is equipped with RC2014<sup>TM</sup> Enhanced bus (partial second row of pins - more on this in Step Three). Double angled goldpins must be used in the middle section. Set jumper to "Int.ROMCS".
 
 <img width="865" height="553" alt="Zrzut ekranu 2025-07-15 122024" src="https://github.com/user-attachments/assets/96887011-b504-448b-a8a4-a9de74135219" />
 
@@ -89,7 +89,7 @@ To get full ZX Spectrum experience sound and joystick would be needed. You have 
 
 If we talk about the standard we mean two things: signals on a bus and0 dimensions of the elements. Signals are not negotiable, the only point of freedom are couple of user defined pins (pin 35+). Read about it [her](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/). But if you talk about the dimensions there are to options: original specification proposed by Spancer Owen and alternative proposed by RCBus 2014. I like shape of original boards however their dimensions are weired and they are squezzed below 100mm in length (it is well known problem that some PCB manufactures PCB production cost increses significantly if you exceed this limit). On the other hand I like logical dimensions of RCBus 2014. So my boards are mixed. but do not worry all modules will fit any backplane the only real problem is with mounting hole.
 
-### User defined pins and modules' jumper configuration
+### User defined pins and jumper configuration
 In RC2014<sup>TM</sup>/RCBus 2014 standard, pins 35-40 are user defined.
 In Speccy board:
 * Pins 35 and 36 are not used because they are commony used as TX/RX by communication modules
@@ -114,6 +114,7 @@ Tomek
 > **Disclaimer**: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your own doings and the consequences, not me.
 >
 > **Licensed under**: CERN Open Hardware Licence Version 2 - Strongly Reciprocal. Read [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.txt)
+
 
 
 
