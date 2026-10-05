@@ -71,6 +71,7 @@ As you can probably imagine both Speccy modules and CPU/ROM/RAM module showed ea
 <img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
 
 Below you can see Speccy module with Altera chip together with upgraded CPU module that powers edge connector with divMMC installed :-)
+To get edge connector working you need close jumpers 37/38/39 of Speccy module and set CPU/RAM/ROM card to Ext.ROMCS.
 
 [photo here] 
 
@@ -99,7 +100,6 @@ In Speccy board:
 * Pin 39 are 40 - these are CLOCK and IORQ signals on ULA side, you need them if you plan to use edge connector
   
 Speccy module has four jumpers. First one located on the left under ULA and three more located on the right side of the ULA. The first one specifies source of sound. You can choose onboard vLA82S+ (left) which has read only AY-8-8912 interface or external input on pin 37 (right).
-three jumpers: 
 
 ### Keyboard Adapter
 
