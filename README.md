@@ -74,13 +74,7 @@ Below you can see Speccy module with Altera chip together with upgraded CPU modu
 
 [photo here] 
 
-To summarize, you have couple of options:
-* Use enhanced bus backplane and CPU board that has enhanced bus connector and add edge connector module. If you need such CPU board see repository. Alternatively you can use CPU/ROM/RAM board mentioned earlier.
-* Use standard bus backplane and CPU board that has enhanced signals available and connect them to edge connector module by wires. If you need such CPU board see repository.
-* You can also use special **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-) You need CPU with enhanced connector.
-See pictures below.
-
-## Step Four: Everything
+## Step Four: Everything else
 
 To get full ZX Spectrum experience sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces for both joystick and sound but why not to build a dedicated module for this? More on this later :-)
 
