@@ -52,8 +52,9 @@ At the very beginning I said that design of Speccy module is based on [ZX48-Esse
 ## Step Three: World of Spectrum
 
 At this stage you should be able to load a game from tape and play using the keyboard. However to get full modern Spectrum experience you probably dream about connecting some storage solution e.g. microSD card interface. In order to do this you need working ZX Spectrum's edge connector. This is the place where things get a bit complicated because:
-* we need a kind of module/PCB/adapter with edge connector to use real world extension modules
-* ZX Spectrum requires more signals on edge connector that we have available on Standard RC2014<sup>TM</sup> bus so we will have to use Enhanced bus (more pins)
+
+* ZX Spectrum requires more signals on edge connector that we have available on Standard RC2014<sup>TM</sup> bus so we will have to use Enhanced bus (more pins) - it affects mainly CPU module that is reponsible for generating those signals
+* we need a kind of module/PCB/adapter with edge connector to use real world extension modules, the module will use those additional signals
 * to connect external peripherials ability to control /ROMCS signal it needed, so that external device can take over by disabling ZX Specturm's ROM (this is also the reason why some standard ROM modules will not work without modfifications).
   
 As you can probably imagine both Speccy modules and CPU/ROM/RAM module are designed to overcome last two points. The only requirements would be to have backplane with enhanced bus and actual edge connector. Why not have it on a backplane itself? Below you can see **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-)
