@@ -25,7 +25,7 @@ To get Spectrum system running you need (apart from above Speccy module):
 
 As you can see in the picture above, Speccy module has couple of jumpers but you can leave them open for now if only your ROM module has select mechanism but most of ready modules have it. See [User defined pins and jumper configuration] for detailed description.
 
-If you install those three modules together with Speccy module on the backplane you should be able to see heartwarming “© 1982 Sinclair Research Ltd” welcome message. Below you can see Speccy module being used with CPU and RAM from RC2014<sup>TM</sup> [Classic II Kit](https://rc2014.co.uk/full-kits/rc2014-classic-ii/). Classic’s ROM module was replaced with [PagedROM](https://rc2014.co.uk/modules/pageable-rom/) module since Classic's original ROM is 8KB only.
+If you install those three modules together with Speccy module on the backplane you should be able to see heartwarming “© 1982 Sinclair Research Ltd” welcome message. Below you can see Speccy module being used with CPU and RAM from RC2014<sup>TM</sup> [Classic II Kit](https://rc2014.co.uk/full-kits/rc2014-classic-ii/). Classic’s II ROM module was replaced with [PagedROM](https://rc2014.co.uk/modules/pageable-rom/) module since Classic's original ROM is 8KB only.
 
 ![thumbnail_IMG_0587a](https://github.com/user-attachments/assets/1547917c-70af-4c33-a095-a6aa7054ddc5)
 
