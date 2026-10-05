@@ -57,7 +57,7 @@ At this stage you should be able to load a game from tape and play using the key
 * to use real world extension modules we need a kind of module/PCB/adapter with physcial edge connector
 * using more intelligent external peripherals, requires ability to control /ROMCS signal, so that external device can take over by disabling ZX Specturm's ROM.
 
-To setup such a system you need:
+To setup such a system using RC2014 components you need:
 
 * backplane that support Enhanced bus like [Backplane Pro](https://rc2014.co.uk/backplanes/backplane-pro/)
 * CPU module that exposes addtional signals like [Z80 CPU v2.1](https://rc2014.co.uk/modules/z80-cpu-v2-1/)
