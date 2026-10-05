@@ -80,7 +80,7 @@ To summarize, you have couple of options:
 * You can also use special **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-) You need CPU with enhanced connector.
 See pictures below.
 
-## Step Four: Get it all!
+## Step Four: Everything
 
 To get full ZX Spectrum experience sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces for both joystick and sound but why not to build a dedicated module for this? More on this later :-)
 
