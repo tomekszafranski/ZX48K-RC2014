@@ -53,23 +53,32 @@ At the very beginning I said that design of Speccy module is based on [ZX48-Esse
 
 At this stage you should be able to load a game from tape and play using the keyboard. However to get full modern Spectrum experience you probably dream about connecting some storage solution e.g. microSD card interface and/or using joystick interface. In order to do this you need working ZX Spectrum's edge connector. This is the place where things get a bit complicated because:
 
-* ZX Spectrum exposes more signals on edge connector that we have available on Standard RC2014<sup>TM</sup> bus so we will have to use Enhanced bus (more pins) - it would affect mainly CPU module that is reponsible for generating those signals
+* ZX Spectrum exposes more signals on edge connector that we have available on Standard RC2014<sup>TM</sup> bus so we will have to use Enhanced bus (more pins) - it would affect CPU module that is responsible for generating those signals but also the backplane that transmits those signals
 * to use real world extension modules we need a kind of module/PCB/adapter with edge connector itself, the module will utilitize those additional signals
 * to connect external peripherials, ability to control /ROMCS signal it needed, so that external device can take over by disabling ZX Specturm's ROM (this the reason why standard ROM modules will not work without modfifications).
+
+So to address above issues you need:
+
+* backplane that support Enhanced bus like [Backplane Pro](https://rc2014.co.uk/backplanes/backplane-pro/)
+* CPU module that exposes addtional signals like [Z80 CPU v2.1](https://rc2014.co.uk/modules/z80-cpu-v2-1/)
+* ROM module like [Pageable ROM](https://rc2014.co.uk/modules/pageable-rom/) modified to allow external CS signal available on bus pin 36
+* new 
   
+**ZX Spectrum Edge connector for RC2014<sup>TM</sup>** board was designed. The only problem is that edge connector requires more signals then are present on RC2014 Standard bus. To get it running you need to be using RC2014 backplane with Enhanced Bus like [Backplane Pro](https://z80kits.com/shop/backplane-pro/). Its most common middle section - pins 17-26 - carries additional CPU signals (/NMI among them). 
+
+![edge](https://github.com/user-attachments/assets/d412ea3d-8c5e-4902-bae1-70fe9a79de77)
+
 As you can probably imagine both Speccy modules and CPU/ROM/RAM module are designed to overcome last two points. The only requirements would be to have backplane with enhanced bus and actual edge connector. Why not have it on a backplane itself? Below you can see **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-)
 
 <img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
 
 
 
-**ZX Spectrum Edge connector for RC2014<sup>TM</sup>** board was designed. The only problem is that edge connector requires more signals then are present on RC2014 Standard bus. To get it running you need to be using RC2014 backplane with Enhanced Bus like [Backplane Pro](https://z80kits.com/shop/backplane-pro/). Its most common middle section - pins 17-26 - carries additional CPU signals (/NMI among them). 
 
-![edge](https://github.com/user-attachments/assets/d412ea3d-8c5e-4902-bae1-70fe9a79de77)
 
-Above edge connector module should be used with Enhanced RCBus backplane (enhanced signals are transferred through backplane). If you have only standard backplane you can still transfer additional signals using wires. You should use upgraded CPU module below that exposes those signals and connect wires from it to edge connector module (install additional 8 pins vertically).
 
-![cpu_2](https://github.com/user-attachments/assets/d67d7550-fc4a-44f7-a5a3-d7b09300e88a)
+
+
 
 Below you can see Speccy module with Altera chip together with upgraded CPU module that powers edge connector with divMMC installed :-)
 
