@@ -80,17 +80,17 @@ To summarize, you have couple of options:
 * You can also use special **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-) You need CPU with enhanced connector.
 See pictures below.
 
-
-
 ## Step Four: Get it all!
 
-To get full ZX Spectrum experience sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces however sound card will be useful. More about this in next repository.
+To get full ZX Spectrum experience sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces for both joystick and sound but why not to build a dedicated module for this? More on this later :-)
 
 ## Remarks
 
 ### General
 * As in original Spectrum, do not connect/reconnect modules while powered. This is always consider a good practice.
-* The only issue I had while assembling above modules was cleaning them properly. It turns out that while soldering, residues of flux remains on goldpin connector and seize proper contact. Clean them carefully with IPA.
+* All RC2014 modules are powered by 5V or 9V standard power supply meaning that center pin is positive voltage which is different from original ZX Spectrum!
+* We do not supply additional voltages on edge connector, so some peripherals (like Interface I) will now work
+* The only issue I had while assembling above modules was cleaning them properly. It turns out that while soldering, residues of flux remains on goldpin connector and seize proper contact. Clean them with IPA.
 
 ### About RC2014 and RCBus standards
 
