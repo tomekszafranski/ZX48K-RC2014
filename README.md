@@ -55,7 +55,7 @@ At this stage you should be able to load a game from tape and play using the key
 
 * ZX Spectrum exposes more signals on edge connector that we have available on Standard RC2014<sup>TM</sup> bus so we will have to use Enhanced bus (more pins) - it would affect mainly CPU module that is reponsible for generating those signals
 * to use real world extension modules we need a kind of module/PCB/adapter with edge connector itself, the module will utilitize those additional signals
-* to connect external peripherials, ability to control /ROMCS signal it needed, so that external device can take over by disabling ZX Specturm's ROM (this is also the reason why some standard ROM modules will not work without modfifications).
+* to connect external peripherials, ability to control /ROMCS signal it needed, so that external device can take over by disabling ZX Specturm's ROM (this the reason why standard ROM modules will not work without modfifications).
   
 As you can probably imagine both Speccy modules and CPU/ROM/RAM module are designed to overcome last two points. The only requirements would be to have backplane with enhanced bus and actual edge connector. Why not have it on a backplane itself? Below you can see **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-)
 
