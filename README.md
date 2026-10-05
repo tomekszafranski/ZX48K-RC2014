@@ -66,7 +66,7 @@ To setup such a system you need:
 
 ![edge](https://github.com/user-attachments/assets/d412ea3d-8c5e-4902-bae1-70fe9a79de77)
 
-As you can probably imagine both Speccy modules and CPU/ROM/RAM module are designed to overcome last two points. The only requirements would be to have backplane with enhanced bus and actual edge connector. Why not have it on a backplane itself? Below you can see **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-)
+As you can probably imagine both Speccy modules and CPU/ROM/RAM module showed earlier are designed to overcome above issues. The only requirements would be to have physical edge connector. Why not have it on a backplane itself? Below you can see **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-)
 
 <img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
 
