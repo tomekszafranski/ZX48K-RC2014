@@ -84,7 +84,7 @@ To get full ZX Spectrum experience sound and joystick would be needed. You have 
 
 ### General
 * As in original Spectrum, do not connect/reconnect modules while powered. This is always consider a good practice.
-* All RC2014 modules are powered by 5V or 9V standard power supply meaning that center pin is positive voltage which is different from original ZX Spectrum!
+* All RC2014 modules are powered by standard power supply meaning that center pin is positive voltage which is different from original ZX Spectrum!
 * We do not supply additional voltages on edge connector, so some peripherals (like Interface I) will now work
 * The only issue I had while assembling above modules was cleaning them properly. It turns out that while soldering, residues of flux remains on goldpin connector and seize proper contact. Clean them with IPA.
 
