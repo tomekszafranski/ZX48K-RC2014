@@ -71,7 +71,7 @@ As you can probably imagine both Speccy modules and CPU/ROM/RAM module showed ea
 
 <img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
 
-Below you can see Speccy module with Altera chip together with CPU/ROM/RAM module and edge connector with divMMC installed :-)
+Below you can see Speccy module with Altera chip with CPU/ROM/RAM module, tactile keyboard and edge connector with divMMC installed :-)
 To get edge connector working you need close jumpers 38/39/40 of Speccy module and set CPU/RAM/ROM card jumper to Ext.ROMCS.
 
 [photo here] 
@@ -104,8 +104,6 @@ In Speccy board:
 ### Keyboard Adapter
 
 Keyboard Adapter is designed to connect ZX Spectrum original keyboard or not.
-
-
 
 Have fun!
 
