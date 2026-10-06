@@ -33,9 +33,6 @@ Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan
 
 <img width="865" height="553" alt="Zrzut ekranu 2025-07-15 122024" src="https://github.com/user-attachments/assets/96887011-b504-448b-a8a4-a9de74135219" />
 
-[photo here] 
-
-
 ## Step Two: Hello World!
 
 To write a program in BASIC that displays standard “Hello World!” message you need a keyboard. Speccy module has IDC16 connector for it. I haven't found any standard here so I followed reasonable pin assignment described in [ZX81 Keyboard Adventure](https://www.zx81keyboardadventure.com/p/zx-key-keyboard-guide-book.html). 
