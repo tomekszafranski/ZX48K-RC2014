@@ -63,11 +63,9 @@ To setup such a system using RC2014 components you need:
 
 ![edge](https://github.com/user-attachments/assets/d412ea3d-8c5e-4902-bae1-70fe9a79de77)
 
-Alternatively, if you don't want to invest in expensive backplane you may still use the one you have 
+Alternatively, if you don't want to invest in expensive backplane you may still use the one you have. ZX Spectrum Edge connector module can be used with Enhanced bus backplane (additional signals are trasmitted using backplane - use goldpin socket for new signals) or standard bus backplane (additional signals are transmitted using dupont wires - use goldpin headers for new signals). In such a case you need CPU board that exposes additional signals.
 
 <img width="1410" height="618" alt="Zrzut ekranu 2026-10-06 085016" src="https://github.com/user-attachments/assets/c9f9de03-c771-43c8-8bb0-dd7e418d8be7" />
-
-It is designed to be used with Enhanced bus backplane (when gold pin sockets are installed) or standard bus backplane - with gold pin headers installed (signals must be delivered by external wires).
 
 As you can probably imagine both Speccy modules and CPU/ROM/RAM module showed earlier are designed to overcome above issues. The only requirements would be to have physical edge connector. Why not have it on a backplane itself? Below you can see **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-)
 
