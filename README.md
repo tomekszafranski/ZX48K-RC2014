@@ -71,8 +71,8 @@ As you can probably imagine both Speccy modules and CPU/ROM/RAM module showed ea
 
 <img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
 
-Below you can see Speccy module with Altera chip together with upgraded CPU module that powers edge connector with divMMC installed :-)
-To get edge connector working you need close jumpers 38/39/40 of Speccy module and set CPU/RAM/ROM card to Ext.ROMCS.
+Below you can see Speccy module with Altera chip together with CPU/ROM/RAM module and edge connector with divMMC installed :-)
+To get edge connector working you need close jumpers 38/39/40 of Speccy module and set CPU/RAM/ROM card jumper to Ext.ROMCS.
 
 [photo here] 
 
