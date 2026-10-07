@@ -35,7 +35,7 @@ Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan
 
 ## Step Two: Hello World!
 
-To write a program in BASIC that displays standard “Hello World!” message you need a keyboard. Speccy module has dedicated IDC16 connector for it. I haven't found any standard here so I followed reasonable pin assignment described in [ZX81 Keyboard Adventure](https://www.zx81keyboardadventure.com/p/zx-key-keyboard-guide-book.html). 
+To write an immortal BASIC program that displays standard “Hello World!” message you need a keyboard. Speccy module has dedicated IDC16 connector for it. I haven't found any standard here so I followed reasonable pin assignment described in [ZX81 Keyboard Adventure](https://www.zx81keyboardadventure.com/p/zx-key-keyboard-guide-book.html). 
 You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyboards designed for Harlequin using **Keyboard Adapter** and IDC16 ribbon cable below. Details can be found in [Keyboard Adapter](#keyboard-adapter) section.
 
 ![zx_spectrum](https://github.com/user-attachments/assets/649b2fc0-529d-4ce9-8673-fbe062be75f1)
