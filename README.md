@@ -15,7 +15,7 @@ Note: To fully understand following description/discussion, a bit of working kno
 
 I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (further referred to it as "Speccy module"). All components follow original design of ZX Spectrum 48K Issue 3B (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory (in place of painful DRAM) is the same as in modern memory replacement boards. Module design follows RC2014<sup>TM</sup> standard - see [About RC2014 and RCBus standards](#about-rc2014-and-rcbus-standards) section for discussion.
 
-" alt="Zrzut ekranu 2025-07-15 210149" src="https://github.com/user-attachments/assets/29c3cf36-874e-42fb-9131-5367b919f58f" />
+<img width="1273" height="1124" alt="Zrzut ekranu 2026-10-08 143020" src="https://github.com/user-attachments/assets/7b51bf11-9272-4c4a-a409-142943479bc9" />
 
 To get such a Spectrum system running you need (apart from above Speccy module): 
 * RC2014 compatible backplane with 4-6 slots (depends on which version you decide to build - read on for more information).
@@ -31,20 +31,20 @@ If you install those three modules together with Speccy module on the backplane 
 
 Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules and the backplane only. As you can see, module is equipped with RC2014<sup>TM</sup> Enhanced bus (partial second row of pins - more on this in Step Three). Double angled goldpins must be used in the middle section. Set jumper to "int.ROMCS" which means that module will generate ROMCS signal itself and not rely on Speccy module".
 
-<img width="865" height="553" alt="Zrzut ekranu 2025-07-15 122024" src="https://github.com/user-attachments/assets/96887011-b504-448b-a8a4-a9de74135219" />
+<img width="1166" height="738" alt="Zrzut ekranu 2026-10-08 143528" src="https://github.com/user-attachments/assets/da777930-fd7a-4122-912f-8e03405c0a3e" />
 
 ## Step Two: Hello World!
 
 To write an immortal BASIC program that displays standard “Hello World!” message you need a keyboard. Speccy module has dedicated IDC16 connector for it. I haven't found any standard here so I followed reasonable pin assignment described in [ZX81 Keyboard Adventure](https://www.zx81keyboardadventure.com/p/zx-key-keyboard-guide-book.html). 
 You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyboards designed for Harlequin using **Keyboard Adapter** and IDC16 ribbon cable below. Details can be found in [Keyboard Adapter](#keyboard-adapter) section.
 
-![zx_spectrum](https://github.com/user-attachments/assets/649b2fc0-529d-4ce9-8673-fbe062be75f1)
+<img width="1136" height="264" alt="Zrzut ekranu 2026-10-08 144022" src="https://github.com/user-attachments/assets/91a54d08-2c86-46aa-80f3-936e938211aa" />
 
 ## Back to Step One?
 
 At the very beginning it was said that design of Speccy module is based on [ZX48-Essentials](https://github.com/tomekszafranski/ZX48essentials). This project utilizes vLA82S+ ULA replacement and its idea was to build a clone (same components as in original ZX Spectrum 48K). However one can argue that this is unnecessary complication and impractical one for sure. There are projects out there that utilize FPGA which can be programmed to replace ULA with surrounding logic. If you are one of these people please have a look at **ZX Spectrum 48K add-on for RC2014<sup>TM</sup>** module below. It has the design and functionality of earlier Speccy module but is based on Altera EPM7128 FPGA and the core used in great [ZX 48 Spider](https://github.com/konkotgit/ZX-48-Spider) project. The rest is the same.
 
-<img width="917" height="828" alt="Zrzut ekranu 2025-07-15 210234" src="https://github.com/user-attachments/assets/e55733c8-0f8c-48e1-aac6-bea3cb35b36a" />
+<img width="1266" height="1124" alt="Zrzut ekranu 2026-10-08 143410" src="https://github.com/user-attachments/assets/9af8f5ab-6f54-4bc3-b55c-e72e982f364f" />
 
 ## Step Three: World of Spectrum
 
