@@ -65,11 +65,11 @@ To setup such a system using RC2014 components you need:
 
 Alternatively, if you don't want to invest in expensive backplane you may still use the one you have. ZX Spectrum Edge connector module can be used with Enhanced bus backplane (additional signals are trasmitted using backplane - use goldpin socket for new signals) or standard bus backplane (additional signals are transmitted using dupont wires - use goldpin headers for new signals). In such a case you need CPU board that exposes additional signals.
 
-<img width="1410" height="618" alt="Zrzut ekranu 2026-10-06 085016" src="https://github.com/user-attachments/assets/c9f9de03-c771-43c8-8bb0-dd7e418d8be7" />
+<img width="1190" height="527" alt="Zrzut ekranu 2026-10-08 143621" src="https://github.com/user-attachments/assets/e715acb6-2386-4077-9568-e34700428e77" />
 
 As you can probably imagine both Speccy modules and CPU/ROM/RAM module showed earlier are designed to overcome above issues. The only requirements would be to have physical edge connector. Why not have it on a backplane itself? Below you can see **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-)
 
-<img width="699" height="1075" alt="Zrzut ekranu 2025-07-15 122157" src="https://github.com/user-attachments/assets/de219821-3f76-419f-a37f-15b84cf7b71a" />
+<img width="850" height="1225" alt="Zrzut ekranu 2026-10-08 143859" src="https://github.com/user-attachments/assets/81eecef1-6bda-4aa1-8cd1-2aa5074c940f" />
 
 Below you can see Speccy module with Altera chip with CPU/ROM/RAM module, tactile keyboard and edge connector with divMMC installed :-)
 To get edge connector working you need close jumpers 38/39/40 of Speccy module and set CPU/RAM/ROM card jumper to Ext.ROMCS.
