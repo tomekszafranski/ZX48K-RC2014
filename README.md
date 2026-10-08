@@ -15,7 +15,7 @@ Note: To fully understand following description/discussion, a bit of working kno
 
 I've designed **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (further referred to it as "Speccy module"). All components follow original design of ZX Spectrum 48K Issue 3B (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory (in place of painful DRAM) is the same as in modern memory replacement boards. Module design follows RC2014<sup>TM</sup> standard - see [About RC2014 and RCBus standards](#about-rc2014-and-rcbus-standards) section for discussion.
 
-<img width="902" height="815" alt="Zrzut ekranu 2025-07-15 210149" src="https://github.com/user-attachments/assets/29c3cf36-874e-42fb-9131-5367b919f58f" />
+" alt="Zrzut ekranu 2025-07-15 210149" src="https://github.com/user-attachments/assets/29c3cf36-874e-42fb-9131-5367b919f58f" />
 
 To get such a Spectrum system running you need (apart from above Speccy module): 
 * RC2014 compatible backplane with 4-6 slots (depends on which version you decide to build - read on for more information).
