@@ -78,7 +78,7 @@ To get external modules working you need to close jumpers 38/39/40 of Speccy mod
 
 ## Step Four: Everything else
 
-To get even more out of your new ZX Spectrum, sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces for both joystick and sound but why not to build a dedicated module for this? More on this later :-)
+To get even more out of your new ZX Spectrum, sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces for both joystick and sound but why not to build a dedicated modules for this? More on this later :-)
 
 ## Remarks
 
@@ -108,7 +108,7 @@ Keyboard Adapter is designed to connect ZX Spectrum original keyboard or not.
 
 ### Programming Altera MAX7000
 
-Quick tour
+Chip used in CPLD version of Speccy module is Altera MAX EPM7128SLI84-10 available (at the moment of writing, relatively easy) from eBay/Aliexpress. Needed socket is PLCC84. To program it you need USB Blaster programming device also available from eBay/Aliexpress. Programming software is Quartus II 13.1 Programmer availabe from [Altera](https://www.altera.com/downloads/fpga-development-tools/quartus-ii-web-edition-design-software-version-13-1-windows). Programming procedure is described .............. 
 
 
 Have fun!
