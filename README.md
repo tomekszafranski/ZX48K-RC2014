@@ -56,14 +56,14 @@ At this stage you should be able to load a game from tape and play using the key
 
 To setup such a system using RC2014 components (assuming Enhanced bus is used) you need:
 
-* **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** module, shown below. Additional pins carry more CPU signals (e.g. NMI). 
+* **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** module, shown below. Additional pins carry more CPU signals (e.g. /NMI). 
 * Backplane that support Enhanced bus - e.g. [Backplane Pro](https://rc2014.co.uk/backplanes/backplane-pro/)
 * CPU module that exposes addtional signals - e.g. [Z80 CPU v2.1](https://rc2014.co.uk/modules/z80-cpu-v2-1/)
 * ROM module like [Pageable ROM](https://rc2014.co.uk/modules/pageable-rom/) modified to be selected by external signal on bus pin 38
 
 <img width="1189" height="394" alt="Zrzut ekranu 2026-10-08 145050" src="https://github.com/user-attachments/assets/e13f9275-a5ff-458a-b87b-2e5855136425" />
 
-Alternatively, if you don't want to invest in new backplane and modules you may still use Standard backplane you have. ZX Spectrum Edge connector module can be used either with Enhanced bus backplane (additional signals are trasmitted using backplane - use goldpin socket facing downwards for new signals) or Standard bus backplane (additional signals are transmitted using dupont wires - use goldpin headers facing upwards for new signals). In such a case you also need simple **CPU board** below that exposes additional signals (reset circuit is optional and not used in our case).
+Alternatively, if you don't want to invest in new backplane and/or modules you may still use Standard backplane you have. ZX Spectrum Edge connector module can be used either with Enhanced bus backplane (additional signals are trasmitted using backplane - use goldpin socket facing downwards for new signals) or Standard bus backplane (additional signals are transmitted using dupont wires - use goldpin headers facing upwards for new signals). In such a case you also need simple **CPU board** below that exposes additional signals (reset circuit is optional and not used in our case).
 
 <img width="1190" height="527" alt="Zrzut ekranu 2026-10-08 143621" src="https://github.com/user-attachments/assets/e715acb6-2386-4077-9568-e34700428e77" />
 
