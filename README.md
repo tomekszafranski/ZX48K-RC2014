@@ -72,13 +72,13 @@ As you can probably imagine both Speccy modules and CPU/ROM/RAM module showed ea
 <img width="850" height="1225" alt="Zrzut ekranu 2026-10-08 143859" src="https://github.com/user-attachments/assets/81eecef1-6bda-4aa1-8cd1-2aa5074c940f" />
 
 Below you can see Speccy module with Altera chip with CPU/ROM/RAM module, tactile keyboard and edge connector with divMMC installed :-)
-To get edge connector working you need close jumpers 38/39/40 of Speccy module and set CPU/RAM/ROM card jumper to Ext.ROMCS.
+To get external modules working you need to close jumpers 38/39/40 of Speccy module and set CPU/RAM/ROM card jumper to ext.ROMCS.
 
 [photo here] 
 
 ## Step Four: Everything else
 
-To get full ZX Spectrum experience sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces for both joystick and sound but why not to build a dedicated module for this? More on this later :-)
+To get even more out of your new ZX Spectrum, sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces for both joystick and sound but why not to build a dedicated module for this? More on this later :-)
 
 ## Remarks
 
