@@ -13,7 +13,7 @@ Note: To fully understand following description/discussion, a bit of working kno
 
 ## Step One: Sinclair’s logo
 
-First step was design of **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (further referred to it as "Speccy module"). All components follow original design of ZX Spectrum 48K Issue 3B (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory (in place of painful DRAM) is the same as in modern memory replacement boards. Module design follows RC2014<sup>TM</sup> standard - see [About RC2014 and RCBus standards](#about-rc2014-and-rcbus-standards) section for discussion.
+First step was design of **ZX Spectrum 48K essentials for RC2014<sup>TM</sup>** module (further referred to it as "Speccy module"). All components follow original design of ZX Spectrum 48K Issue 3B (have same [references and values](https://spectrumforeveryone.com/wp-content/uploads/2017/08/ZXSpectrumIssue3b-Schematics.gif)) and the approach to utilizing static Lower RAM memory (in place of painful DRAM) is the same as in modern memory replacement boards. Module design follows RC2014<sup>TM</sup> standard - see [RC2014 and RCBus standards](#rc2014-and-rcbus-standards) section for discussion.
 
 <img width="1273" height="1124" alt="Zrzut ekranu 2026-10-08 143020" src="https://github.com/user-attachments/assets/7b51bf11-9272-4c4a-a409-142943479bc9" />
 
@@ -88,9 +88,9 @@ To get even more out of your new ZX Spectrum, sound and joystick would be needed
 * We do not supply additional voltages on edge connector, so some peripherals (like Interface I) will now work
 * The only issue I had while assembling above modules was cleaning them properly. It turns out that while soldering, residues of flux remains on goldpin connector and seize proper contact. Clean it with IPA.
 
-### About RC2014 and RCBus standards
+### RC2014 and RCBus standards
 
-If we talk about the standards we mean two things: signals on a bus and dimensions of the modules. Signals are not negotiable, the only point of freedom is couple of user defined pins (pin 35-40). All the specifications and descriptions can be found on [Small Computer Central](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/) by Stephen C Cousins (also big fan). Be aware that some (old?) RC2014 modules have only 39 pins (pin 40 is missing due to limited size).
+If we talk about the standards we mean two things: signals on a bus and dimensions/shape of the modules. Signals are not negotiable, the only point of freedom is couple use of user defined pins (pin 35-40). All the specifications and descriptions can be found on [Small Computer Central](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/) by Stephen C Cousins (also big fan :-). Be aware that some (old?) RC2014 modules have only 39 pins (pin 40 is missing due to limited size).
 
 But if you talk about the dimensions there are two options available: original specification proposed by Spancer Owen and alternative proposed by RCBus 2014. I like shape of original boards however their dimensions are weired and they are squezzed below 100mm in length (it is well known problem that some PCB manufactures PCB production cost increses significantly if you exceed this limit). On the other hand I like logical dimensions of RCBus 2014. So my boards are mixed. but do not worry all modules will fit any backplane the only real problem is with mounting hole....
 
