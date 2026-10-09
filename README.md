@@ -63,7 +63,7 @@ To setup such a system using RC2014 components you need:
 
 <img width="1189" height="394" alt="Zrzut ekranu 2026-10-08 145050" src="https://github.com/user-attachments/assets/e13f9275-a5ff-458a-b87b-2e5855136425" />
 
-Alternatively, if you don't want to invest in expensive backplane and new modules you may still use Standard backplane you have. ZX Spectrum Edge connector module can be used either with Enhanced bus backplane (additional signals are trasmitted using backplane - use goldpin socket for new signals) or Standard bus backplane (additional signals are transmitted using dupont wires - use goldpin headers for new signals). In such a case you need simple **CPU board** that exposes additional signals (reset circuit is not used in our case).
+Alternatively, if you don't want to invest in expensive backplane and new modules you may still use Standard backplane you have. ZX Spectrum Edge connector module can be used either with Enhanced bus backplane (additional signals are trasmitted using backplane - use goldpin socket facing downwards for new signals) or Standard bus backplane (additional signals are transmitted using dupont wires - use goldpin headers facing upwards for new signals). In such a case you need simple **CPU board** below that exposes additional signals (reset circuit is optional and not used in our case).
 
 <img width="1190" height="527" alt="Zrzut ekranu 2026-10-08 143621" src="https://github.com/user-attachments/assets/e715acb6-2386-4077-9568-e34700428e77" />
 
