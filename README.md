@@ -50,9 +50,9 @@ At the very beginning it was said that design of Speccy module is based on [ZX48
 
 At this stage you should be able to load a game from tape and play using the keyboard. However to get modern Spectrum experience you probably dream about connecting a storage solution e.g. microSD card interface and/or joystick/sound interface. In order to do this you need working ZX Spectrum's edge connector. This is the place where things get a bit complicated because:
 
-* ZX Spectrum exposes more signals on edge connector that we have available on RC2014 Standard bus, so we will have to patch additional wires or use Enhanced bus (more pins) instead - it would affect CPU module that is responsible for generating those signals and potentially also the backplane (if we decide to use Enhanced bus)
-* to use real world extension modules we need physcial edge connector
-* using more intelligent external peripherals, requires ability to control ROMCS signal, so that external device can take over by disabling ZX Specturm's ROM.
+* To use real world extension modules we need to add physical edge connector
+* ZX Spectrum exposes more signals on edge connector that we have available on RC2014 Standard bus, so we will have to run additional wires (from CPU to edge connector) or - more elegant - use Enhanced bus (more pins/signals) instead - thia would affect CPU module that is responsible for generating those signals and potentially also the backplane (if we decide to use Enhanced bus to transmit them)
+* Also, using more intelligent external peripherals, requires ability to control ROMCS signal, so that external device can take over by disabling ZX Specturm's ROM.
 
 To setup such a system using RC2014 components you need:
 
