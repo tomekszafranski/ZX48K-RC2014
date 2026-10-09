@@ -29,7 +29,7 @@ If you install those three modules together with Speccy module on the backplane 
 
 ![thumbnail_IMG_0587a](https://github.com/user-attachments/assets/1547917c-70af-4c33-a095-a6aa7054ddc5)
 
-Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules and the backplane only. As you can see, module is equipped with RC2014<sup>TM</sup> Enhanced bus (partial second row of pins - more on this in Step Three). Double angled goldpins must be used in the middle section. Set jumper to "int.ROMCS" which means that module will generate ROMCS signal itself and not rely on Speccy module".
+Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules and the backplane only. As you can see, module is equipped with RC2014 Enhanced bus (partial second row of pins - more on this in Step Three). Double angled goldpins must be used in the middle section. Set jumper to "int.ROMCS" which means that module will generate ROMCS signal itself and not rely on Speccy module".
 
 <img width="1166" height="738" alt="Zrzut ekranu 2026-10-08 143528" src="https://github.com/user-attachments/assets/da777930-fd7a-4122-912f-8e03405c0a3e" />
 
@@ -50,7 +50,7 @@ At the very beginning it was said that design of Speccy module is based on [ZX48
 
 At this stage you should be able to load a game from tape and play using the keyboard. However to get modern Spectrum experience you probably dream about connecting a storage solution e.g. microSD card interface and/or joystick/sound interface. In order to do this you need working ZX Spectrum's edge connector. This is the place where things get a bit complicated because:
 
-* ZX Spectrum exposes more signals on edge connector that we have available on Standard RC2014 bus, so we will have to patch additional wires or use Enhanced bus (more pins) instead - it would affect CPU module that is responsible for generating those signals and potentially also the backplane (if we decide to use Enhanced bus)
+* ZX Spectrum exposes more signals on edge connector that we have available on RC2014 Standard bus, so we will have to patch additional wires or use Enhanced bus (more pins) instead - it would affect CPU module that is responsible for generating those signals and potentially also the backplane (if we decide to use Enhanced bus)
 * to use real world extension modules we need physcial edge connector
 * using more intelligent external peripherals, requires ability to control ROMCS signal, so that external device can take over by disabling ZX Specturm's ROM.
 
