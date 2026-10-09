@@ -56,7 +56,7 @@ At this stage you should be able to load a game from tape and play using the key
 
 To setup such a system using RC2014 components you need:
 
-* **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** board, shown below. Additional pins carry more CPU signals (e.g. NMI). 
+* **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** module, shown below. Additional pins carry more CPU signals (e.g. NMI). 
 * Backplane that support Enhanced bus - e.g. [Backplane Pro](https://rc2014.co.uk/backplanes/backplane-pro/)
 * CPU module that exposes addtional signals - e.g. [Z80 CPU v2.1](https://rc2014.co.uk/modules/z80-cpu-v2-1/)
 * ROM module like [Pageable ROM](https://rc2014.co.uk/modules/pageable-rom/) modified to be selected by external signal on bus pin 38
