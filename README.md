@@ -90,7 +90,7 @@ To get even more out of your new ZX Spectrum, sound and joystick would be needed
 
 ### About RC2014 and RCBus standards
 
-If we talk about the standards we mean two things: signals on a bus and dimensions of the modules. Signals are not negotiable, the only point of freedom are couple of user defined pins (pin 35-40). All the specifications and description can be found on [Small Computer Central](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/). Be aware that some (old?) RC2014 modules have only 39 pins (pin 40 is missing due to limited size).
+If we talk about the standards we mean two things: signals on a bus and dimensions of the modules. Signals are not negotiable, the only point of freedom is couple of user defined pins (pin 35-40). All the specifications and descriptions can be found on [Small Computer Central](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/) by Stephen C Cousins (also big fan). Be aware that some (old?) RC2014 modules have only 39 pins (pin 40 is missing due to limited size).
 
 But if you talk about the dimensions there are two options available: original specification proposed by Spancer Owen and alternative proposed by RCBus 2014. I like shape of original boards however their dimensions are weired and they are squezzed below 100mm in length (it is well known problem that some PCB manufactures PCB production cost increses significantly if you exceed this limit). On the other hand I like logical dimensions of RCBus 2014. So my boards are mixed. but do not worry all modules will fit any backplane the only real problem is with mounting hole....
 
