@@ -54,7 +54,7 @@ At this stage you should be able to load a game from tape and play using the key
 * ZX Spectrum exposes more signals on its edge connector that we are available on RC2014 Standard bus, so we will have to route additional wires (from CPU to edge connector) or - in more elegant - use Enhanced bus instead (more pins/signals). This would affect CPU module that is responsible for supplying those signals and potentially also the backplane (if we decide to use Enhanced bus to transmit them)
 * Also, using more intelligent external peripherals, require control of /ROMCS signal, so that ZX Specturm's ROM can be disabled.
 
-To setup such a system using RC2014 components you need:
+To setup such a system using RC2014 components (assuming Enhanced bus is used) you need:
 
 * **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** module, shown below. Additional pins carry more CPU signals (e.g. NMI). 
 * Backplane that support Enhanced bus - e.g. [Backplane Pro](https://rc2014.co.uk/backplanes/backplane-pro/)
