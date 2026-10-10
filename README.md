@@ -94,7 +94,7 @@ If we talk about standards, there are two things to consider: signals on a bus a
 
 Dimensions of the modules (however still a part of specification) are more of aesthetics concern. I like shape of original boards (punched card) however their dimensions are weired - size of base module is 99.1mm x 49.9mm with 39 pins as it is squeezed below 100mm in length (it is well known problem with some PCB manufactures - PCB production cost increases significantly if you exceed this limit). Other suggested sizes (height) are: 25.0mm, 31.8mm, 75mm and 100mm. I like logical dimensions of RCBus - width of the module is 4", and the heights are: 1", 1.5", 2", 4" and it is 40 pin wide). So my designs are mixed, I keep original punch card shape which I like but use standardized size in inches (I'm metric person but KiCad likes inches). 
 
-If you are concerned about compatibility with others modules - they will always work if pins assignment is correct. Size is aesthetics concern. The only real problem is location of the hole used for connection between modules - it will really fit :-(
+If you are concerned about compatibility with others modules - they will always work if pins assignment is correct. Size is aesthetics concern. The only real problem is location of the hole used for connection between modules - it will rarely fit :-(
 
 ### User defined pins and jumpers
 Speccy module has four jumpers. First one located on the left under ULA and three more located on the right side of the ULA. 
