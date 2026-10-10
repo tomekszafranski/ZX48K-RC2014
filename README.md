@@ -90,7 +90,7 @@ To get even more out of your new ZX Spectrum, sound and joystick would be needed
 
 ### RC2014 and RCBus standards
 
-If we talk about the standards there are two things to think of: signals on a bus and dimensions/shape of the modules. And there are two specification available: original RC2014 specification proposed by Spencer Owen and alternative RCBus proposed by Stephen C Cousins (also big fan :-). 
+If we talk about standards there are two things to consider: signals on a bus and dimensions/shape of the modules. And there are two specification available: original RC2014 specification proposed by Spencer Owen and alternative RCBus proposed by Stephen C Cousins (also big fan :-). 
 
 In all specifications signals are not negotiable, the only point of freedom is use of user defined pins (pin 35-40). Specifications and descriptions can be found on [Small Computer Central](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/) Be aware that some (old?) RC2014 modules have only 39 pins due to limited size.
 
