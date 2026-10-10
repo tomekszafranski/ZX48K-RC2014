@@ -90,9 +90,9 @@ To get even more out of your new ZX Spectrum, sound and joystick would be needed
 
 ### RC2014 and RCBus standards
 
-If we talk about standards there are two things to consider: signals on a bus and dimensions/shape of the modules. And there are two specification available: original RC2014 specification proposed by Spencer Owen and alternative RCBus proposed by Stephen C Cousins (also big fan :-). 
+If we talk about standards there are two things to consider: signals on a bus and dimensions/shape of the modules. There are two specification available: original RC2014 specification proposed by Spencer Owen and wider alternative RCBus proposed by Stephen C Cousins (also big fan :-). 
 
-In all specifications signals are not negotiable, the only point of freedom is use of user defined pins (pin 35-40). Specifications and descriptions can be found on [Small Computer Central](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/) Be aware that some (old?) RC2014 modules have only 39 pins due to limited size.
+Both specifications agree on signals that are not negotiable, the only point of freedom is use of user defined pins (pin 35-40). Detailed description can be found on [Small Computer Central](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/) Be aware that some (old?) RC2014 modules have only 39 pins due to limited size.
 
 Dimensions of the modules (however still a part of specification) are more of aesthetics concern. I like shape of original boards (punched card) however their dimensions are weired - size of base module is 99.1mm x 49.9mm with 39 pins as it is squeezed below 100mm in length (it is well known problem that some PCB manufactures - PCB production cost increases significantly if you exceed this limit). Other suggested sizes (height) are: 25.0mm, 31.8mm, 75mm and 100mm). On the other hand I like logical dimensions of RCBus - width of the module is 4", and the heights are: 1", 1.5", 2", 4" and it is 40pin wide). So in above designs I keep original punch card shape but use standarized size in inches.
 
