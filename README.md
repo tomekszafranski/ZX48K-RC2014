@@ -92,11 +92,11 @@ To get even more out of your new ZX Spectrum, sound and joystick would be needed
 
 If we talk about standards, there are two things to consider: signals on a bus and dimensions/shape of the module. There are two specification available: original RC2014 specification proposed by Spencer Owen and wider alternative RCBus proposed by Stephen C Cousins (also big fan :-). 
 
-Both specifications agree on signals and that is not negotiable, the only point of freedom you have is use of user defined pins (pin 35-40). Detailed description can be found on [Small Computer Central](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/) Be aware that some (old?) RC2014 modules have only 39 pins due to limited size.
+Both specifications agree on signals and that is not negotiable, the only point of freedom you have is use of user defined pins (pin 35-40). Detailed description can be found on [Small Computer Central](https://smallcomputercentral.com/rc2014-bus/specification-rc2014-bus/). Be aware that some RC2014 modules have only 39 pins due to limited size.
 
 Dimensions of the modules (however still a part of specification) are more of aesthetics concern. I like shape of original boards (punched card) however their dimensions are weired - size of base module is 99.1mm x 49.9mm with 39 pins as it is squeezed below 100mm in length (it is well known problem with some PCB manufactures - PCB production cost increases significantly if you exceed this limit). Other suggested sizes (height) are: 25.0mm, 31.8mm, 75mm and 100mm. On the other hand, I like logical dimensions of RCBus - width of the module is 4", and the heights are: 1", 1.5", 2", 4" and it is 40 pin wide). So my designs are mixed, I keep original punch card shape but use standardized size in inches.
 
-If you are concerned about compatibility with others modules - they will always work if pins assignment is correct. Size is aesthetics concern. The only real problem is location of the hole used for potential connection between module - it will really fit :-(
+If you are concerned about compatibility with others modules - they will always work if pins assignment is correct. Size is aesthetics concern. The only real problem is location of the hole used for connection between modules - it will really fit :-(
 
 ### User defined pins and jumpers
 Speccy module has four jumpers. First one located on the left under ULA and three more located on the right side of the ULA. 
