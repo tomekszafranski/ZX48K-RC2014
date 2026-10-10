@@ -96,7 +96,7 @@ Dimensions of the modules (however still a part of specification) are more of ae
 
 If you are concerned about compatibility with others modules - they will always work if pins assignment is correct. Size is aesthetics concern. The only real problem is location of the hole used for connection between modules - it will rarely fit :-(
 
-### Jumpers configurastion
+### Jumpers configuration
 Speccy module has four jumpers. First one located on the left under ULA and three more located on the right side of the ULA. 
 In RC2014<sup>TM</sup>/RCBus 2014 standard, pins 35-40 are user defined. In Speccy board:
 
