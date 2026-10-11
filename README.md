@@ -110,6 +110,9 @@ In RC2014<sup>TM</sup>/RCBus 2014 standard, pins 35-40 are user defined. In Spec
 ### Keyboard Adapter
 
 Keyboard Adapter is designed to connect ZX Spectrum original keyboard or not.
+[Harlequin keyboard (tactile)](https://www.pcbway.com/project/shareproject/Supero_Harlequin_128_Keyboard.html)
+[Harlequin keyboard](https://www.pcbway.com/project/shareproject/ZX_Spectrum_Keyboard.html)
+
 
 ### Programming Altera MAX7000S
 
