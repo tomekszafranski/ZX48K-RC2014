@@ -29,7 +29,7 @@ If you install those three modules together with Speccy module on the backplane 
 
 ![thumbnail_IMG_0587a](https://github.com/user-attachments/assets/1547917c-70af-4c33-a095-a6aa7054ddc5)
 
-Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules and the backplane only. As you can see, module is equipped with RC2014 Enhanced bus (partial second row of pins - more on this in Step Three). Double angled goldpins must be used in the middle section. Set jumper to "int.ROMCS" which means that module will generate /ROMCS signal itself and not rely on Speccy module".
+Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules and the backplane only. As you can see, module is equipped with RC2014 Enhanced bus (partial second row of pins) - more on this in Step Three. Double angled goldpins must be used in the middle section. Set jumper to "int.ROMCS" which means that module will generate select signal itself and not rely on Speccy module.
 
 <img width="1166" height="738" alt="Zrzut ekranu 2026-10-08 143528" src="https://github.com/user-attachments/assets/da777930-fd7a-4122-912f-8e03405c0a3e" />
 
