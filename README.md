@@ -35,7 +35,7 @@ Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan
 
 ## Step Two: Hello World!
 
-So you have your version of ZX Spectrum running, but to write BASIC program that displays immortal “Hello World!”, you need a keyboard. Speccy module has dedicated IDC16 connector for it. I haven't found any standard for it so I followed reasonable pin assignment described in [ZX81 Keyboard Adventure](https://www.zx81keyboardadventure.com/p/zx-key-keyboard-guide-book.html). 
+So you have your version of ZX Spectrum booting, but to write BASIC program that displays immortal “Hello World!”, you need a keyboard. Speccy module has dedicated IDC16 connector for it. I haven't found any standard for it so I followed reasonable pin assignment described in [ZX81 Keyboard Adventure](https://www.zx81keyboardadventure.com/p/zx-key-keyboard-guide-book.html). 
 You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyboards designed for Harlequin using this **Keyboard Adapter** and IDC16 ribbon cable. Details can be found in [Keyboard Adapter](#keyboard-adapter) section.
 
 <img width="1353" height="311" alt="Zrzut ekranu 2026-10-09 114309" src="https://github.com/user-attachments/assets/96c6d19d-d1db-45b0-a39f-d388b4a4eb60" />
