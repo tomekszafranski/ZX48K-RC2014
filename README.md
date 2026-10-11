@@ -113,8 +113,7 @@ Keyboard Adapter is designed to connect ZX Spectrum original keyboard or not.
 
 ### Programming Altera MAX7000
 
-CPLD version of Speccy module uses Altera MAX EPM7128SLI84-10 chip available (at the moment of writing, relatively easy) from eBay/Aliexpress. Needed socket is PLCC84. To program with included *.pof file you need USB-Blaster programming device, also available from eBay/Aliexpress. Programming software is Quartus II 13.1 Programmer available from [Altera](https://www.altera.com/downloads/fpga-development-tools/quartus-ii-web-edition-design-software-version-13-1-windows). Chips from MAX7000S use In-System Programming via JTAG pins: TCK, TMS, TDI, TDO. The only problem is that Speccy module does not expose JTAG programming pins so chip must be programmed elsewhere - using development board (available form eBay/Aliexpress), other system equiped with JTAG connector for ISP or simple self-made interface.
-
+CPLD version of Speccy module uses Altera MAX EPM7128SLI84-10 chip available (at the moment of writing, relatively easy) from eBay/Aliexpress. Needed socket is PLCC84. To program it with *.pof file you need USB-Blaster programming device, also available from eBay/Aliexpress. Programming software is Quartus II 13.1 Programmer available from [Altera](https://www.altera.com/downloads/fpga-development-tools/quartus-ii-web-edition-design-software-version-13-1-windows). MAX7000S family chips use In-System Programming via JTAG pins: TCK, TMS, TDI, TDO. The only problem is that Speccy module does not expose JTAG programming pins so chip must be programmed elsewhere - using development board (available form eBay/Aliexpress), other system equipped with JTAG connector for ISP or after soldering the socket using simple self-made interface.
 
 Have fun!
 
@@ -124,62 +123,3 @@ Tomek
 > **Disclaimer**: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your own doings and the consequences, not me.
 >
 > **Licensed under**: CERN Open Hardware Licence Version 2 - Strongly Reciprocal. Read [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.txt)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
