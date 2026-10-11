@@ -60,8 +60,8 @@ To setup such a system you need **ZX Spectrum Edge connector for RC2014<sup>TM</
 
 The rest of the system depends on what components you have/want to use. First option is to utilitize Enhanced bus:
 
-* Backplane that support Enhanced bus - e.g. [Backplane Pro](https://rc2014.co.uk/backplanes/backplane-pro/) or [SC105 Backplane](https://smallcomputercentral.com/rcbus/sc100-series/sc105-modular-backplane-rc2014/)
-* CPU module that exposes addtional signals - e.g. [Z80 CPU v2.1](https://rc2014.co.uk/modules/z80-cpu-v2-1/) or [SC153 Z80 CPU](https://smallcomputercentral.com/rcbus/sc100-series/sc153-z80-cpu-module-rc2014/#assembly-guide)
+* Backplane that support Enhanced bus - e.g. [Backplane Pro](https://rc2014.co.uk/backplanes/backplane-pro/) from RC2014 or [SC105 Backplane](https://smallcomputercentral.com/rcbus/sc100-series/sc105-modular-backplane-rc2014/) from SCC
+* CPU module that exposes addtional signals - e.g. [Z80 CPU v2.1](https://rc2014.co.uk/modules/z80-cpu-v2-1/) from RC2014 or [SC153 Z80 CPU](https://smallcomputercentral.com/rcbus/sc100-series/sc153-z80-cpu-module-rc2014/#assembly-guide) from SCC
 
 Alternatively, if you don't want to invest in new backplane and/or modules you may still use Standard bus backplane you have. ZX Spectrum Edge connector module can be used either with Enhanced bus backplane (additional signals are trasmitted using backplane - use goldpin socket facing downwards for new signals) or Standard bus backplane (additional signals are transmitted using dupont wires - use goldpin headers facing upwards for new signals). In second case you also need to exchange your CPU module with **Z80 CPU** module below that exposes additional signals (reset circuit is optional and not used in our case).
 
