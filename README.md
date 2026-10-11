@@ -54,14 +54,15 @@ At this stage you should be able to load a game from tape and play using the key
 * ZX Spectrum exposes more signals on its edge connector that we are available on RC2014 Standard bus, so we will have to add wires (from CPU to edge connector) or - more elegant way - use Enhanced bus instead (more pins/signals). This would affect CPU module that is responsible for supplying those signals and potentially also the backplane (if we decide to use Enhanced bus to transmit them)
 * Also, using more intelligent external peripherals, require control of /ROMCS signal, so that ZX Specturm's ROM can be disabled - it has to be shared.
 
-To setup such a system using RC2014 components (assuming Enhanced bus is used) you need:
+To setup such a system you need **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** module, shown below. Additional pins carry more CPU signals (e.g. /NMI).
 
-* **ZX Spectrum Edge connector for RC2014<sup>TM</sup>** module, shown below. Additional pins carry more CPU signals (e.g. /NMI). 
+<img width="1158" height="380" alt="ZX48K-RC2014_Edge_board" src="https://github.com/user-attachments/assets/da742aa7-5a10-4150-a524-3191c721693f" />
+
+The rest of the system depends on what components you have/want to use. First option is to utilitize Enhanced bus:
+
 * Backplane that support Enhanced bus - e.g. [Backplane Pro](https://rc2014.co.uk/backplanes/backplane-pro/)
 * CPU module that exposes addtional signals - e.g. [Z80 CPU v2.1](https://rc2014.co.uk/modules/z80-cpu-v2-1/)
 * ROM module like [Pageable ROM](https://rc2014.co.uk/modules/pageable-rom/) modified to be selected by external signal on bus pin 38
-
-<img width="1158" height="380" alt="ZX48K-RC2014_Edge_board" src="https://github.com/user-attachments/assets/da742aa7-5a10-4150-a524-3191c721693f" />
 
 Alternatively, if you don't want to invest in new backplane and/or modules you may still use Standard bus backplane you have. ZX Spectrum Edge connector module can be used either with Enhanced bus backplane (additional signals are trasmitted using backplane - use goldpin socket facing downwards for new signals) or Standard bus backplane (additional signals are transmitted using dupont wires - use goldpin headers facing upwards for new signals). In second case you also need to exchange your CPU module with **Z80 CPU** module below that exposes additional signals (reset circuit is optional and not used in our case).
 
