@@ -42,7 +42,7 @@ You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyb
 
 ## Back to Step One?
 
-At the very beginning it was said that design of Speccy module is based on [ZX48-Essentials](https://github.com/tomekszafranski/ZX48essentials). This project utilizes vLA82S+ ULA replacement (an idea that I had at the time) and its idea was to build a clone (same components as in original ZX Spectrum 48K). However, one can argue that this is unnecessary complication and impractical one for sure. There are projects out there that utilize FPGA which can be programmed to replace ULA with surrounding logic. If you are one of these people please have a look at **ZX Spectrum 48K add-on for RC2014<sup>TM</sup>** module below. It has the design and functionality of earlier Speccy module but is based on Altera EPM7128 FPGA and the core used in great [ZX 48 Spider](https://github.com/konkotgit/ZX-48-Spider) project. See [Programming Altera MAX7000S](programming-altera-max7000S) section for quick tour. The rest works the same.
+At the very beginning it was said that design of Speccy module is based on [ZX48-Essentials](https://github.com/tomekszafranski/ZX48essentials). This project utilizes vLA82S+ ULA replacement (an idea that I had at the time) and its idea was to build a clone (same components as in original ZX Spectrum 48K). However, one can argue that this is unnecessary complication and impractical one for sure. There are projects out there that utilize FPGA which can be programmed to replace ULA with surrounding logic. If you are one of these people please have a look at **ZX Spectrum 48K add-on for RC2014<sup>TM</sup>** module below. It has the design and functionality of earlier Speccy module but is based on Altera EPM7128S FPGA and the core used in great [ZX 48 Spider](https://github.com/konkotgit/ZX-48-Spider) project. See [Programming Altera MAX7000S](programming-altera-max7000S) section for quick tour. The rest works the same.
 
 <img width="1266" height="1124" alt="Zrzut ekranu 2026-10-08 143410" src="https://github.com/user-attachments/assets/9af8f5ab-6f54-4bc3-b55c-e72e982f364f" />
 
@@ -110,8 +110,8 @@ In RC2014<sup>TM</sup>/RCBus 2014 standard, pins 35-40 are user defined. In Spec
 ### Keyboard Adapter
 
 Keyboard Adapter is designed to connect ZX Spectrum original keyboard or not.
-[Harlequin keyboard (tactile)](https://www.pcbway.com/project/shareproject/Supero_Harlequin_128_Keyboard.html)
-[Harlequin keyboard](https://www.pcbway.com/project/shareproject/ZX_Spectrum_Keyboard.html)
+[Superfo Harlequin 128 Keyboard (tactile)](https://www.pcbway.com/project/shareproject/Supero_Harlequin_128_Keyboard.html)
+[ZX Spectrum Keyboard (cherry)](https://www.pcbway.com/project/shareproject/ZX_Spectrum_Keyboard.html)
 
 
 ### Programming Altera MAX7000S
