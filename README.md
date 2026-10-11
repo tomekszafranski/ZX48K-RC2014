@@ -71,7 +71,7 @@ As you can probably imagine, both Speccy modules and CPU/ROM/RAM module are desi
 
 <img width="850" height="1225" alt="Zrzut ekranu 2026-10-08 143859" src="https://github.com/user-attachments/assets/81eecef1-6bda-4aa1-8cd1-2aa5074c940f" />
 
-Below you can see Speccy module with Altera chip with CPU/ROM/RAM module, tactile keyboard and edge connector with divMMC installed :-)
+Below you can see Speccy module with Altera chip with CPU/ROM/RAM module, tactile Harlequin keyboard and divMMC with joystick :-)
 
 [photo here] 
 
