@@ -52,7 +52,7 @@ At this stage you should be able to load a game from tape and play using the key
 
 * To use extension modules we need to add physical edge connector
 * ZX Spectrum exposes more signals on its edge connector that we are available on RC2014 Standard bus, so we will have to add wires (from CPU to edge connector) or - more elegant way - use Enhanced bus instead (more pins/signals). This would affect CPU module that is responsible for supplying those signals and potentially also the backplane (if we decide to use Enhanced bus to transmit them)
-* Also, using more intelligent external peripherals, require control of /ROMCS signal, so that ZX Specturm's ROM can be disabled, so it have to be shared.
+* Also, using more intelligent external peripherals, require control of /ROMCS signal, so that ZX Specturm's ROM can be disabled - it has to be shared.
 
 To setup such a system using RC2014 components (assuming Enhanced bus is used) you need:
 
