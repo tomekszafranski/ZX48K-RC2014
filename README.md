@@ -61,7 +61,7 @@ To setup such a system using RC2014 components (assuming Enhanced bus is used) y
 * CPU module that exposes addtional signals - e.g. [Z80 CPU v2.1](https://rc2014.co.uk/modules/z80-cpu-v2-1/)
 * ROM module like [Pageable ROM](https://rc2014.co.uk/modules/pageable-rom/) modified to be selected by external signal on bus pin 38
 
-<img width="1189" height="394" alt="Zrzut ekranu 2026-10-08 145050" src="https://github.com/user-attachments/assets/e13f9275-a5ff-458a-b87b-2e5855136425" />
+<img width="1158" height="380" alt="ZX48K-RC2014_Edge_board" src="https://github.com/user-attachments/assets/da742aa7-5a10-4150-a524-3191c721693f" />
 
 Alternatively, if you don't want to invest in new backplane and/or modules you may still use Standard backplane you have. ZX Spectrum Edge connector module can be used either with Enhanced bus backplane (additional signals are trasmitted using backplane - use goldpin socket facing downwards for new signals) or Standard bus backplane (additional signals are transmitted using dupont wires - use goldpin headers facing upwards for new signals). In second case you also need simple **CPU board** below that exposes additional signals (reset circuit is optional and not used in our case).
 
