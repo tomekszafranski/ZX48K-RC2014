@@ -26,9 +26,7 @@ Speccy module has couple of jumpers but you can leave them open for now if only 
 
 If you install those three modules together with Speccy module on the backplane you should be able to see heartwarming “© 1982 Sinclair Research Ltd” welcome message. Below you can see Speccy module being used with CPU and RAM from RC2014<sup>TM</sup> [Classic II Kit](https://rc2014.co.uk/full-kits/rc2014-classic-ii/). Classic’s ROM module was replaced with [PagedROM](https://rc2014.co.uk/modules/pageable-rom/) module since Classic's original ROM is 8KB only (do not populate paging section: U2, U5 and U6 - shorten pins 4 and 5 of U4 instead).
 
-![thumbnail_IMG_0587a](https://github.com/user-attachments/assets/1547917c-70af-4c33-a095-a6aa7054ddc5)
-
-<img width="1920" height="1440" alt="05a72391-7478-47cc-b418-4a9b13bc32ee" src="https://github.com/user-attachments/assets/d251feed-da9c-46a5-9138-67ee0c64b649" />
+<img width="1920" height="1440" alt="05a72391-7478-47cc-b418-4a9b13bc32ee" src="https://github.com/user-attachments/assets/e556169a-e665-444c-81f9-3d661f037ac6" />
 
 Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan of the standard and have different modules lying around. If not, you can use dedicated **ZX Spectrum 48K CPU/ROM/RAM** module to get you going. You should be able to see Spectrum's welcome message using these two modules mounted on any backplane. As you can see, module is equipped with RC2014 Enhanced bus (partial second row of pins) - more on this in Step Three. Double angled goldpins must be used in the middle section. Set jumper to "int.ROMCS" which means that module will generate ROM select signal itself and not rely on Speccy module.
 
