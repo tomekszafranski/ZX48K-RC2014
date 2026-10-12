@@ -95,7 +95,7 @@ Dimensions of the modules (however still a part of specification) are more of ae
 If you are concerned about compatibility with others modules: modules will always work if only pins assignment is correct. Size is an aesthetics concern. The only real problem is location of the hole used for connection between modules - it will rarely fit :-(
 
 ### Jumpers configuration
-Speccy module has four jumpers. On Speccy module with vLA82S+ first jumper is located in the bottom-left corned of PCB and remaining three are located in bottom-central part. On Speccy module with CPLD all four jumpers are together in middle bottom part of PCB.
+Speccy module has four jumpers. On Speccy module with vLA82S+ first jumper is located in the bottom-left corner of PCB and remaining three are located in bottom middle part of PCB. On Speccy module with CPLD all four jumpers are together in middle bottom part of PCB.
 
 | **RC2014 user defined pin** | **Configuration details** |
 | :------ | :------ |
