@@ -70,7 +70,7 @@ As you can probably imagine, both Speccy modules and CPU/ROM/RAM module are desi
 
 <img width="850" height="1225" alt="Zrzut ekranu 2026-10-08 143859" src="https://github.com/user-attachments/assets/81eecef1-6bda-4aa1-8cd1-2aa5074c940f" />
 
-Below you can see Speccy module with Altera chip (sorry no speaker installed) with CPU/ROM/RAM module, tactile Harlequin keyboard and divMMC with joystick playing BombJack :-)
+Below you can see Speccy CPLD module (sorry no speaker installed) with CPU/ROM/RAM module, tactile Harlequin keyboard and divMMC with joystick, playing BombJack :-)
 
 <img width="1920" height="2089" alt="b2e6085c-6bfd-4a15-b7fd-9c5795bb580c" src="https://github.com/user-attachments/assets/0fcffbcc-0346-4ec8-b06d-bd4fb293f6a3" />
 
