@@ -45,7 +45,7 @@ At the very beginning it was said that design of Speccy module is based on [ZX48
 
 <img width="1266" height="1124" alt="Zrzut ekranu 2026-10-08 143410" src="https://github.com/user-attachments/assets/9af8f5ab-6f54-4bc3-b55c-e72e982f364f" />
 
-## Step Three: World of Spectrum
+## Step Three: World of ZX Spectrum
 
 At this stage you should be able to load a game from tape and play using the keyboard. However, to get modern Spectrum experience you probably dream of connecting a storage solution e.g. microSD card interface and/or joystick/sound interface. In order to do this, working ZX Spectrum's edge connector is needed. This is the place where things get a bit complicated because:
 
