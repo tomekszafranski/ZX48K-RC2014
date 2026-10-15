@@ -76,7 +76,7 @@ Below you can see Speccy CPLD module (sorry no speaker installed) with CPU/ROM/R
 
 ## Step Four: Everything else
 
-To get even more out of your new ZX Spectrum, sound and joystick would be needed. You have edge connector at your disposal so you can use external interfaces for both joystick and sound but why not to build a dedicated modules? More on this later :-)
+To get even more out of your new ZX Spectrum, sound/joystick would be needed and maybe floppy/Gotek drive?. You have edge connector at your disposal so you can use external interfaces but why not to build a dedicated modules? More on this later :-)
 
 ## Remarks
 
