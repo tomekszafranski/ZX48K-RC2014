@@ -92,7 +92,7 @@ If we talk about standards, there are two things to consider: signals on a bus a
 
 Dimensions of the modules (part of specification) are more of aesthetics concern. I like shape of original boards (punched card) however their dimensions are non-standard - size of base module is 99.1mm x 49.9mm with 39 pins as it is squeezed below 100mm in length (it is well known issue with some PCB manufactures - production cost increases significantly if you exceed this limit). Other suggested sizes (height) are: 25.0mm, 31.8mm, 75mm and 100mm. On the other hand, I like dimensions proposed by RCBus - width of the module is 4", and the heights are: 1", 1.5", 2", 4" and it is 40 pin wide. So my designs are mixed, I keep original punched card shape which I like but use standardized size in inches (I'm metric person but KiCad likes inches :-). 
 
-If you are concerned about compatibility with others modules: modules will always work if only pins assignment is correct. Size is an aesthetics concern. The only real problem is location of the hole used for connection between modules - it will rarely fit between makers :-(
+If you are concerned about compatibility with others modules: modules will always work if only pins assignment is correct. Size is an aesthetics concern. The only real problem is location of the hole used for connection between modules - it will rarely fit between makers and/or different module sizes :-(
 
 ### Jumpers configuration
 Both Speccy modules have four jumpers. On Speccy vLA82S+ module first jumper is located in the bottom-left corner of PCB and remaining three are located in bottom-center part of PCB. On Speccy CPLD module, all four jumpers are grouped together in bottom-center part of PCB.
