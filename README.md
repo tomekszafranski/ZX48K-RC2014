@@ -35,7 +35,7 @@ Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan
 ## Step Two: Hello World!
 
 So you have your version of ZX Spectrum booting, but to write BASIC program that displays immortal “Hello World!”, you need a keyboard. Speccy module has dedicated IDC16 connector for it. I haven't found any standard so I followed reasonable pin assignment described in [ZX81 Keyboard Adventure](https://www.zx81keyboardadventure.com/p/zx-key-keyboard-guide-book.html). 
-You can use original ZX Spectrum or ZX Spectrum+ keyboard, ZX81 keyboard or keyboards designed for Harlequin using this **Keyboard Adapter** and IDC16 ribbon cable. Details can be found in [Keyboard Adapter](#keyboard-adapter) section.
+You can use original ZX Spectrum or ZX Spectrum+ keyboard or keyboards designed for Harlequin using this **Keyboard Adapter** and IDC16 ribbon cable. Details can be found in [Keyboard Adapter](#keyboard-adapter) section.
 
 <img width="1353" height="311" alt="Zrzut ekranu 2026-10-09 114309" src="https://github.com/user-attachments/assets/96c6d19d-d1db-45b0-a39f-d388b4a4eb60" />
 
@@ -106,10 +106,9 @@ Both Speccy modules have four jumpers. On Speccy vLA82S+ module first jumper is 
 
 ### Keyboard Adapter
 
-Keyboard Adapter is designed to connect ZX Spectrum original keyboard or not.
-[Superfo Harlequin 128 Keyboard (tactile)](https://www.pcbway.com/project/shareproject/Supero_Harlequin_128_Keyboard.html)
-[ZX Spectrum Keyboard (cherry)](https://www.pcbway.com/project/shareproject/ZX_Spectrum_Keyboard.html)
+When you build ZX Spectrum clone you might still want to use original keyboard. On the other hand if it is not a replica you may want use other keyboards. Often choice is [Superfo Harlequin 128 Keyboard (tactile)](https://www.pcbway.com/project/shareproject/Supero_Harlequin_128_Keyboard.html) or [ZX Spectrum Keyboard (mechanical)](https://www.pcbway.com/project/shareproject/ZX_Spectrum_Keyboard.html). Also with new keyboards you probably will not use original FFC tapes. All above is handled by mentioned Keyboard Adapter that allows you to use all above options and even works with ZX81 allowing to use its keyboard for your Spectrum na vice versa.
 
+<img width="1873" height="446" alt="37543cb3-16a9-45a7-988f-d1a97765d431" src="https://github.com/user-attachments/assets/91bd1160-9496-46b1-b79d-63b42f2b45e9" />
 
 ### Programming Altera MAX7000S
 
