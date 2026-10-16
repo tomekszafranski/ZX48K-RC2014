@@ -19,7 +19,7 @@ The first step was designing **ZX Spectrum 48K essentials for RC2014<sup>TM</sup
 
 <img width="1273" height="1124" alt="Zrzut ekranu 2026-10-08 143020" src="https://github.com/user-attachments/assets/7b51bf11-9272-4c4a-a409-142943479bc9" />
 
-To get such a Spectrum system running you need (apart from Speccy module) following RC2014 components: 
+To get such Spectrum system running you need (apart from Speccy module) following RC2014 components: 
 * Backplane with 4-6 slots (depends on which version you decide to build - read on for more information).
 * Z80 CPU without clock and ideally without reset circuit but with pullup resistors for /NMI, /WAIT and /BUSRQ lines (however they might be also connected directly to +5V). It is also OK to have INT line pulled-up, however in original Spectrum it is not. CLK and /RESET signals will be supplied by Speccy module. 
 * 32KB of RAM at address 8000h with needed logic to select/read/write it (based on A15, /MREQ, /RD, /WR lines).
