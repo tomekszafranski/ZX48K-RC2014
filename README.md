@@ -106,7 +106,7 @@ Both Speccy modules have four jumpers. On Speccy vLA82S+ module first jumper is 
 
 ### Keyboard Adapter
 
-When you build ZX Spectrum clone you might still want to use original keyboard. On the other hand if it is not a replica you may want use other keyboards. Often choice is [Superfo Harlequin 128 Keyboard (tactile)](https://www.pcbway.com/project/shareproject/Supero_Harlequin_128_Keyboard.html) or [ZX Spectrum Keyboard (mechanical)](https://www.pcbway.com/project/shareproject/ZX_Spectrum_Keyboard.html). Also with new keyboards you probably will not use original FFC tapes. All above is handled by mentioned Keyboard Adapter that allows you to use all above options and even works with ZX81 allowing to use its keyboard for your Spectrum na vice versa.
+When you build ZX Spectrum clone you might still want to use original keyboard. On the other hand if it is not an exact replica you may want use more convinient keyboard. Most popular is probably [Superfo Harlequin 128 Keyboard (tactile)](https://www.pcbway.com/project/shareproject/Supero_Harlequin_128_Keyboard.html) or [ZX Spectrum Keyboard (mechanical)](https://www.pcbway.com/project/shareproject/ZX_Spectrum_Keyboard.html). Mentioned earlier Keyboard Adapterhandles all above options and even works with ZX81 allowing to use its keyboard for your Spectrum and vice versa.
 
 <img width="1873" height="446" alt="37543cb3-16a9-45a7-988f-d1a97765d431" src="https://github.com/user-attachments/assets/91bd1160-9496-46b1-b79d-63b42f2b45e9" />
 
