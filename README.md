@@ -115,7 +115,7 @@ Keyboard Adapter is designed to connect ZX Spectrum original keyboard or not.
 
 CPLD version of Speccy module uses Altera MAX EPM7128SLI84-10 chip available (at the moment of writing, relatively easy) from eBay/Aliexpress. Needed socket is PLCC84. To program it with required _*.pof_ file you need _USB-Blaster_ programming device, also available from eBay/Aliexpress. Programming software is _Quartus II 13.1 Programmer_ available from [Altera](https://www.altera.com/downloads/fpga-development-tools/quartus-ii-web-edition-design-software-version-13-1-windows). MAX7000S family chips use In-System Programming (ISP) via JTAG pins. The only problem is that Speccy module - due to limited size - does not have JTAG programming pins so chip must be programmed elsewhere: using development board (available form eBay/Aliexpress), other system equipped with JTAG connector for ISP or after soldering the socket using simple self-made interface - see [programming circuit](ZX48K-RC2014_Speccy_CPLD/ZX48K-RC2014-Speccy_CPLD_programming.png).
 
-Steps to program device are the following: click _Hardware Setup_ and choose your download cable, click _Auto Detect_ to scan the JTAG chain and recognize your specific MAX chip model, click _Add File_ and select your compiled output file, check the _Program/Configure_ box next to the file name, then click _Start_ to initiate the transfer.
+Steps to program device are the following: click _Hardware Setup_ button and choose your download cable, click _Auto Detect_ to scan the JTAG chain and recognize your specific MAX chip model, click _Add File_ and select your compiled output file, check the _Program/Configure_ box next to the file name, then click _Start_ to initiate the transfer.
 
 Have fun!
 
