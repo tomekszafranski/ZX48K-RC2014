@@ -116,7 +116,6 @@ CPLD version of Speccy module uses Altera MAX EPM7128SLI84-10 chip available (at
 
 Steps to program device are the following: click _Hardware Setup_ button and choose your download cable (you might need some magic here to make chinesse clon to show up), click _Add File_ button and select your _*.pof_ file, check the _Program/Configure_ box next to the file name, then click _Start_ button to initiate the transfer.
 
-
 Have fun!
 
 Tomek
