@@ -35,7 +35,7 @@ Above assumes that you have one of the RC2014<sup>TM</sup> kits or you are a fan
 ## Step Two: Hello World!
 
 So you have your version of ZX Spectrum booting, but to write BASIC program that displays immortal “Hello World!”, you need a keyboard. Speccy module has dedicated IDC16 connector for it. I haven't found any standard so I followed reasonable pin assignment described in [ZX81 Keyboard Adventure](https://www.zx81keyboardadventure.com/p/zx-key-keyboard-guide-book.html). 
-You can use original ZX Spectrum or ZX Spectrum+ keyboard or keyboards designed for Harlequin using this **Keyboard Adapter** and IDC16 ribbon cable. Details can be found in [Keyboard Adapter](#keyboard-adapter) section.
+You can use original ZX Spectrum or ZX Spectrum+ keyboard or keyboards designed for Harlequin using this **Keyboard Adapter** and IDC16 ribbon cable. Details can be found in [Using Keyboard Adapter](#using-keyboard-adapter) section.
 
 <img width="1353" height="311" alt="Zrzut ekranu 2026-10-09 114309" src="https://github.com/user-attachments/assets/96c6d19d-d1db-45b0-a39f-d388b4a4eb60" />
 
@@ -104,7 +104,7 @@ Both Speccy modules have four jumpers. On Speccy vLA82S+ module first jumper is 
 | **Jumper #3**<br/>UCLK | When closed, CLOCK signal on ULA side is available on bus pin 39 and routed to edge connector |
 | **Jumper $4**<br/>/UIORQ| When closed, IORQ signal on ULA side is available on bus pin 40 and routed to edge connector |
 
-### Keyboard Adapter
+### Using Keyboard Adapter
 
 When you build ZX Spectrum clone you may still use original keyboard or more convenient modern versions. Most popular is probably [Superfo Harlequin 128 Keyboard (tactile)](https://www.pcbway.com/project/shareproject/Supero_Harlequin_128_Keyboard.html) or [ZX Spectrum Keyboard (mechanical)](https://www.pcbway.com/project/shareproject/ZX_Spectrum_Keyboard.html). Mentioned earlier Keyboard Adapter handles all above options (original and modern keyboard) and even works with ZX81 allowing to use its keyboard for your Spectrum and vice versa.
 
