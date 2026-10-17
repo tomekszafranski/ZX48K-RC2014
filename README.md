@@ -11,7 +11,7 @@ While working on [ZX48K-Essentials](https://github.com/tomekszafranski/ZX48essen
 
 ![thumbnail_IMG_8508_2](https://github.com/user-attachments/assets/ff2cee50-6fe0-4505-aebd-a353caf3a4de)
 
-Soon I found out (RTFM + Internet) that such a solution already exists – wonderful [RC2014<sup>TM</sup>]( https://rc2014.co.uk/) system created by Spencer Owen – standard that I liked very much at first sight. So having my version of ZX Spectrum ready, designing a version for RC2014<sup>TM</sup> seemed natural thing to do. The idea was to use components developed for RC2014<sup>TM</sup> system that you might already have: CPU, RAM, ROM and add Spectrum specific part (module) only. 
+Soon I found out (RTFM! + Internet) that such a solution already exists – wonderful [RC2014<sup>TM</sup>]( https://rc2014.co.uk/) system created by Spencer Owen – standard that I liked very much at first sight. So having my version of ZX Spectrum ready, designing a version for RC2014<sup>TM</sup> seemed natural thing to do. The idea was to use components developed for RC2014<sup>TM</sup> system that you might already have: CPU, RAM, ROM and add Spectrum specific part (module) only. 
 
 _Note: To fully understand following description/discussion, a bit of working knowledge of ZX Spectrum design would be useful, but don't worry if you're not an expert - anyone can easily follow the logic and instructions below._
 
