@@ -3,7 +3,7 @@
 
 ## Introduction 
 
-Sinclair ZX Spectrum 48K computer was released in April 1982 and with over 5 million units sold, became one of the most influential European machines of home computers revolution of the early 80s. 
+Sinclair ZX Spectrum 48K computer was released in April 1982 and with over 5 million units sold, became one of the most influential European machines of computers revolution of the early 80s. 
 
 While working on [ZX48K-Essentials](https://github.com/tomekszafranski/ZX48essentials) project I thought it would be nice to have a system that could be easily extended step by step, starting from CPU and adding next components to get a fully loaded computer in the end. I came up with the idea of self made modular Z80 system. It utilized 40-pin goldpin connectors on a stripboard, modules were built using universal PCBs cut to size and components were connected by wires and jumpers. It worked quite well for some time but since only one poor contact is enough to crash, after a while it became difficult to enjoy.
 
