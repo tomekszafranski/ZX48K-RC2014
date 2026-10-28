@@ -70,11 +70,11 @@ Alternatively, if you don't want to invest in new backplane and/or modules you m
 
 <img width="1190" height="527" alt="Zrzut ekranu 2026-10-08 143621" src="https://github.com/user-attachments/assets/e715acb6-2386-4077-9568-e34700428e77" />
 
-As you can probably imagine, both Speccy modules and CPU/ROM/RAM module are designed with those things in mind (you need to close jumpers #2, #3, #4 of Speccy module and set CPU/RAM/ROM jumper to ext.ROMCS). The only requirements would be to have physical edge connector. Why not have it on a backplane itself? Below you can see **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-)
+As you can probably imagine, both Speccy modules and CPU/ROM/RAM module are designed with those things in mind (you need to close jumpers #2, #3, #4 of Speccy module and set CPU/RAM/ROM jumper to ext.ROMCS). The only requirements would be to have physical edge connector. Why not have it on a backplane itself? See **Backplane for RC2014<sup>TM</sup> with ZX Spectrum edge connector** :-) below.
 
 <img width="850" height="1225" alt="Zrzut ekranu 2026-10-08 143859" src="https://github.com/user-attachments/assets/81eecef1-6bda-4aa1-8cd1-2aa5074c940f" />
 
-Below you can see Speccy CPLD module (sorry no speaker installed) with CPU/ROM/RAM module, tactile Harlequin keyboard and divMMC with joystick, playing BombJack :-)
+Example of Speccy CPLD module (sorry no speaker installed) with CPU/ROM/RAM module, tactile Harlequin keyboard and divMMC with joystick, playing BombJack :-)
 
 <img width="1920" height="2089" alt="b2e6085c-6bfd-4a15-b7fd-9c5795bb580c" src="https://github.com/user-attachments/assets/0fcffbcc-0346-4ec8-b06d-bd4fb293f6a3" />
 
